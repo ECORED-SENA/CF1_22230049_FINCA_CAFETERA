@@ -1,9 +1,11 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo:
+      'Caracterización de componentes biofísicos y socioculturales de la finca cafetera',
+    descripcionCurso:
+      'A través del estudio de este componente, el aprendiz estará más y mejor capacitado en las competencias e implicaciones del proceso productivo: identificación de ecosistemas, normativa ambiental, desarrollo de prácticas para reducción de impactos de la caficultura sobre el entorno natural, herramientas topográficas, entre otros. Todo ello como soporte de su responsabilidad con la sostenibilidad, en términos ambientales.',
+    fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.png'),
+    fondoBannerInterno: require('@/assets/curso/images/header/interno.svg'),
   },
   menuPrincipal: {
     menu: [
@@ -22,31 +24,97 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Ecología',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Factores bióticos',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: ' Factores abióticos',
+            hash: 't_1_2',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Bienes y servicios ambientales',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Bienes y servicios de abastecimiento',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Bienes y servicios de regulación',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Bienes y servicios de apoyo',
+            hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo: 'Bienes y servicios culturales',
+            hash: 't_2_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Conflictos y problemas ambientales',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Origen de los conflictos ambientales',
+            hash: 't_3_1',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Cartografía predial',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Herramientas topográficas',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Interpretación cartográfica',
+            hash: 't_4_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.3',
+            titulo: 'Manejo de escalas',
+            hash: 't_4_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -88,34 +156,134 @@ export default {
       },
     ],
   },
-  complementario: [
-    {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      descarga: '/downloads/prueba.pdf',
-    },
-  ],  
-  glosario: [
-    {
-      termino: 'Término',
-      significado: 'Definición',
-    },
-    {
-      termino: '<em>Término</em>',
-      significado: 'Definición',
-    },
-  ],  
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Castro L. et al. (2018). Preguntas y respuestas sobre conflictos ambientales. Aprendizajes del río Orotoy.',
+      link: 'http://repository.humboldt.org.co/handle/20.500.11761/34269',
+    },
+    {
+      referencia:
+        'Etter A. (2002). INTRODUCCIÓN A LA ECOLOGÍA DEL PAISAJE: Un Marco de Integración para los Levantamientos Ecológicos.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.researchgate.net/publication/266391069_INTRODUCCION_A_LA_ECOLOGIA_DEL_PAISAJE_Un_Marco_de_Integracion_para_los_Levantamientos_Ecologicos/citation/download ',
+    },
+    {
+      referencia:
+        'Fadda, G. (2017). Morfología del suelo. Facultad de Agronomía y Zootecnia Universidad Nacional de Tucumán,  ',
+      link:
+        'https://www.edafologia.org/app/download/7953429476/Morfologia+2017.pdf?t=1587690300  ',
+    },
+    {
+      referencia:
+        'Instituto de Hidrología, Meteorología y Estudios Ambientales IDEAM. (2022). Tiempo y clima, meteorología agrícola.',
+      link: 'http://www.ideam.gov.co/web/tiempo-y-clima/meteorologia-agricola',
+    },
+    {
+      referencia:
+        'Instituto Nacional de Estadística, Geografía e Informática (2005). Guía para la Interpretación de Cartografía Topografía.',
+      link:
+        'https://www.inegi.org.mx/contenido/productos/prod_serv/contenidos/espanol/bvinegi/productos/historicos/1329/702825231743/702825231743_1.pdf ',
+    },
+    {
+      referencia:
+        'Ministerio De Ambiente Y Desarrollo Sostenible, (2015). Política nacional para la gestión integral de la biodiversidad y sus servicios ecosistémicos.',
+      link:
+        'http://repository.humboldt.org.co/bitstream/handle/20.500.11761/32546/PNGIBSE_espanol_web.pdf?sequence=1&isAllowed=y',
+    },
+    {
+      referencia: 'Odum E., Barret G. (s.f.). Fundamentos de ecología.',
+      link:
+        'https://fdocuments.es/reader/full/fundamentos-de-ecologia-de-eugene-odum',
+    },
+    {
+      referencia:
+        'Organización de las Naciones Unidas para la Alimentación y la Agricultura FAO (2015). El suelo es un recurso no renovable su conservación es esencial para la seguridad alimentaria y nuestro futuro sostenible.',
+      link: 'https://www.fao.org/3/i4373s/i4373s.pdf',
+    },
+    {
+      referencia:
+        'Organización de las Naciones Unidas para la Alimentación y la Agricultura FAO (2022). Servicios ecosistémicos y biodiversidad.',
+      link:
+        'https://www.fao.org/ecosystem-services-biodiversity/background/regulatingservices/es/ ',
+    },
+    {
+      referencia:
+        'Sánchez N., Rocha Z. (2014 ). La evaluación de servicios ambientales de soporte. Revista digital Uniboyacá. No. 2 – Mzo. – Ago.',
+      link:
+        'https://revistasdigitales.uniboyaca.edu.co/index.php/reiv3/article/view/67/69 ',
+    },
+  ],
+  glosario: [
+    {
+      termino: 'Antroposfera',
+      significado:
+        'Es la porción de la biosfera que abarca el hábitat humano, así como sus actividades y funciones. ',
+    },
+    {
+      termino: 'Biota',
+      significado:
+        'La biota es todo el conjunto de especies animales, vegetales y microorganismos que se hacen presentes en un territorio o un área geográfica.',
+    },
+    {
+      termino: 'Criósfera ',
+      significado:
+        'Hace referencia a la porción de la capa superficial de la tierra que se encuentra cubierta por hielo. ',
+    },
+    {
+      termino: 'Erosivo',
+      significado:
+        'Es todo fenómeno o proceso que tiene la capacidad de degradar el suelo y afectar su estructura y composición natural. ',
+    },
+    {
+      termino: 'Escorrentía',
+      significado:
+        'Es el agua de lluvia que se desplaza por la superficie del suelo cuando este se encuentra saturado. Generalmente las aguas de escorrentía arrastran parte de los nutrientes del suelo. ',
+    },
+    {
+      termino: 'Pluviómetro',
+      significado:
+        'Instrumento empleado para medir la cantidad de agua lluvia por metro cuadrado. Este mide la cantidad de agua en milímetros. ',
+    },
+    {
+      termino: 'Roca madre',
+      significado:
+        'Es la base rocosa original sobre la cual tienen lugar los procesos de meteorización que, posteriormente, dan origen al suelo. La calidad y tipo de suelo está altamente condicionado por las propiedades de la roca madre. ',
+    },
+    {
+      termino: 'Taninos',
+      significado:
+        'Son sustancias de la familia de los polifenoles presentes en los árboles y en las plantas en general. Tienen múltiples aplicaciones en la industria debido a sus propiedades antioxidantes. ',
+    },
+  ],
+  complementario: [
+    {
+      texto:
+        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
+      tipo: 'Video',
+      link: 'https://www.google.com/',
+    },
+    {
+      texto:
+        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
+      tipo: 'Página web',
+      descarga: '/downloads/prueba.pdf',
+    },
+    {
+      texto:
+        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
+      tipo: 'Artículo científico',
+      link: 'https://www.google.com/',
+    },
+    {
+      texto: 'Economía de Rosquilla. (s.f.).',
+      tipo: 'Página web',
+      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
+    },
+    {
+      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+      tipo: 'Video',
+      link: ['https://www.google.com/', 'https://www.google.com/'],
     },
   ],
   creditos: {
@@ -129,9 +297,30 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
+        cargo: 'Responsable Equipo  Desarrollo Curricular',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Carlos Andrés Sánchez Suárez',
+        cargo: 'Experto temático',
+        centro: 'Centro Agropecuario La Granja - Regional Tolima ',
+      },
+      {
+        nombre: 'Fabián Leonardo Correa Díaz',
+        cargo: 'Diseñador Instruccional',
+        centro:
+          'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Asesora metodológico',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Jhon Jairo Rodríguez Pérez',
+        cargo: 'Diseñador y evaluador instruccional',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -142,22 +331,38 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Eulises Orduz Amézquita',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gustavo Adolfo Marún Suárez',
+        cargo: 'Desarrollo Front-End',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Wilson Andrés Arenales Caceres',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Nombre',

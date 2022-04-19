@@ -1,13 +1,21 @@
 <template lang="pug">
 .curso-main-container.introduccion
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-  
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span
           i.fas.fa-info
-      h1 Introducción
+      h1 Introducción 
+
+    p.mb-5.text-center Se da la bienvenida al componente formativo <b>“Caracterización de componentes biofísicos y socioculturales de la finca cafetera”</b>. Se debe iniciar en esta experiencia visualizando el recurso que se presenta a continuación:
+  .container.bg-white.p-4.p-md-5.fondo-video
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+  .container.bg-white.p-4.p-md-1.container-bottom
+    
+    
 
 </template>
 
