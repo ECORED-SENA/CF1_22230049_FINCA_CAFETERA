@@ -17,7 +17,7 @@
           p.mb-0 La ecología se puede definir como el “estudio de los sistemas de la Tierra conformados por los organismos vivientes y el entorno inanimado con el cual interactúan directa o indirectamente”. Si bien esta definición recoge en buena medida lo que significa la ecología, un concepto más amplio podría ser aquél que hace referencia a esta como “el campo de conocimiento de la composición, estructura y funcionamiento de los ecosistemas” 
         p.aling-2.mt-2.text-color <b> Etter, 2002 </b> 
       .col-auto.mb-5.mb-lg-0.onTop.order-2.order-lg-1
-        img(src="@/assets/curso/images/tema1/img_1.svg" alt='AvatarTop', style="width:430px; display:block; margin:-6rem -3rem;").m-auto
+        img(src="@/assets/curso/images/tema1/img_1.png" alt='AvatarTop', style="width:430px; display:block; margin:-6rem -3rem;").m-auto
 
     p.text-center.mb-5 En relación directa con la ecología, aparecen otros conceptos y aspectos de suma importancias, tales como:
     .row.justify-content-center.align-items
@@ -36,21 +36,21 @@
               p Poco a poco, diversas corrientes de pensamiento fueron ajustando el concepto e integrando elementos como el ser humano y su capacidad para incidir en su entorno. De esta manera, se consiguió una visión mucho más amplia del ecosistema hasta llegar a lo que existe hoy día, donde “el papel del hombre como factor formador del paisaje adquiere mayor trascendencia en la configuración ecosistémica” (Etter 2002).
             .col-lg-5.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/images/tema1/img_3.svg', style="width: 450px").m-auto
+                img(src='@/assets/curso/images/tema1/img_4.svg', style="width: 450px").m-auto
           
           .row.color-custom(numero="3" titulo="Interdependencias del ser humano y el mundo").m-auto
               .col-lg-7
                 p Es así como se evidencia que las actividades humanas tienen la capacidad de incidir en el paisaje y en las relaciones que se dan entre los demás organismos que integran los ecosistemas, por lo que la unidad productiva no puede verse como un ente aislado del territorio, sino que, por el contrario, se constituye en una parte del entramado de procesos e interdependencias que se constituyen a su alrededor. 
               .col-lg-5.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/images/tema1/img_4.svg', style="width: 450px").m-auto
+                  img(src='@/assets/curso/images/tema1/img_5.png', style="width: 450px").m-auto
           
           .row.color-custom(numero="4" titulo="Comprensión de los ecosistemas y su funcionamiento").align-items-center.p-4
             .col-lg-7
               p Para entender un poco más lo que sucede al interior de los ecosistemas y analizar la forma como a través de la intervención humana se pueden transformar las dinámicas naturales, es necesario conocer qué elementos los integran y cómo están distribuidos dentro del paisaje.
             .col-lg-5.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/images/tema1/img_5.svg', style="width: 450px").m-auto
+                img(src='@/assets/curso/images/tema1/img_6.png', style="width: 450px").m-auto
 
     Separador 
 
@@ -108,12 +108,11 @@
         img(src="@/assets/curso/images/tema1/piramide.svg", alt= "")
 
   .container.bg-white.p-4.p-md-1.container-bottom
-  .container.bg-white.p-5.p-md-0.fondo-2
-    .row.align-items.p-1
+    .row.align-items.fondo-2
       .col-lg-5
         img(src="@/assets/curso/images/tema1/mariposa.svg")
       .col-lg-6
-        h3.mb-3 Fauna y Flora 
+        h3.my-3 Fauna y Flora 
         p.mb-1 Para hacer un análisis de los elementos bióticos que hacen parte de los ecosistemas se han creado dos grandes grupos denominados fauna y flora. 
 
         p.mb-3 El primero de ellos, la fauna, hace referencia a todas las especies animales que concurren en un lugar determinado y su composición y tamaño está definido, entre otros factores, por la existencia de relaciones entre especies, la conducta animal, la adaptabilidad de las especies, sus rasgos 
@@ -191,6 +190,15 @@
 
         p.mb-5.text-center <b>Dentro de los principales factores abióticos es posible establecer las siguientes categorías:</b>
 
+
+      .col-md-6.col-xl-3.px-1.mb-xl-0
+        .tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema1/tj_1.jpg')})`}")
+            .tarjeta-flip__contenido.bgr-1
+              
+
       .col-md-6.col-xl-3.px-1.mb-xl-0
         .tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -214,13 +222,7 @@
             .tarjeta-flip__contenido.bgr-7
 
 
-      .col-md-6.col-xl-3.px-1.mb-xl-0
-        .tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema1/tj_8.jpg')})`}")
-            .tarjeta-flip__contenido.bgr-8
-
+   
     .row.align-items-center.justify-content-center
       .col-lg-10
         .cajon.color-custom.p-4.mb-3
@@ -237,12 +239,13 @@
         img(src="@/assets/curso/images/tema1/ico_5.svg", style="width: 200px").m-auto
 
 
-    .row.align-items-center
+    .row.align-items-center.d-none.d-lg-block 
+        .col-lg-8
         .col-lg-8
           p.aling-4 El agua es fundamental para que se dé la vida, porque todos los procesos biológicos que surgen al interior de los ecosistemas requieren de este importante recurso. En la actualidad, buena parte de las fuentes hídricas en Colombia, se encuentran afectadas en mayor o menor medida por diversos fenómenos, los cuales ponen en riesgo su disponibilidad y calidad.
-    .row.align-items-center.fondo-4.p-5
+    .row.align-items-center.fondo-4.p-5.d-none.d-lg-block 
       .col-lg-6.mb-lg-0.p-2
-          p.text-small.aling-3 Entre los factores que más amenazan la disponibilidad del agua están:
+          p.aling-18 Entre los factores que más amenazan la disponibilidad del agua están:
             ul.lista-ul--color.mt-3
               li 
                 i.fas.fa-circle.cac.mx-2
@@ -263,11 +266,40 @@
                 i.fas.fa-circle.cac.mx-2
                 | El desarrollo de prácticas agrícolas poco sostenibles.
       .col-lg-6.mb-lg-0
-          img.mb-5(src="@/assets/curso/images/tema1/paisaje.png" alt="", style="width:290px; display:block; margin: -6rem 14rem;")
-    .row.align-items-center
-        .col-lg-8
-          p.aling-5 Además de la pérdida de este importante recurso, su mal manejo y contaminación se ha convertido en un problema de salud pública, debido a que el deterioro de la calidad del agua tiene una relación directa con la alta incidencia de diversas enfermedades que afectan a toda la población. 
+          img.mb-5(src="@/assets/curso/images/tema1/paisaje.png" alt="", style="width:290px; display:block; margin: -20rem 58rem;")
+    .row.align-items-center.d-none.d-lg-block 
+      .col-lg-8
+        p.aling-5 Además de la pérdida de este importante recurso, su mal manejo y contaminación se ha convertido en un problema de salud pública, debido a que el deterioro de la calidad del agua tiene una relación directa con la alta incidencia de diversas enfermedades que afectan a toda la población. 
+    
+    .row.align-items-center.d-block.d-lg-none
+      p El agua es fundamental para que se dé la vida, porque todos los procesos biológicos que surgen al interior de los ecosistemas requieren de este importante recurso. En la actualidad, buena parte de las fuentes hídricas en Colombia, se encuentran afectadas en mayor o menor medida por diversos fenómenos, los cuales ponen en riesgo su disponibilidad y calidad.
+      .row.align-items-center.fondo.responsive
+        .col-lg-8-lg-0
+          p.mt-3 Entre los factores que más amenazan la disponibilidad del agua están:
+            ul.lista-ul--color.mt-3
+              li 
+                i.fas.fa-circle.cac.mx-2
+                | La expansión de los centros urbanos.
+              li 
+                i.fas.fa-circle.cac.mx-2
+                | La falta de controles estrictos a la industria.
+              li 
+                i.fas.fa-circle.cac.mx-2
+                | El auge de la minería informal.
+              li 
+                i.fas.fa-circle.cac.mx-2
+                | El uso indiscriminado de pesticidas.
+              li 
+                i.fas.fa-circle.cac.mx-2
+                | El deterioro de las coberturas vegetales.
+              li 
+                i.fas.fa-circle.cac.mx-2
+                | El desarrollo de prácticas agrícolas poco sostenibles.
+        .col-lg-4.mb-lg-0
+          img.mb-2(src="@/assets/curso/images/tema1/paisaje.png")
 
+    .row.align-items-center.mt-3.d-block.d-lg-none
+      p Además de la pérdida de este importante recurso, su mal manejo y contaminación se ha convertido en un problema de salud pública, debido a que el deterioro de la calidad del agua tiene una relación directa con la alta incidencia de diversas enfermedades que afectan a toda la población. 
     .row.align-items-center.mb-5
       .col-lg-4
         img(src="@/assets/curso/images/tema1/ico_6.svg", style="width: 200px").m-auto
@@ -396,7 +428,7 @@
         ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
             figure
-              img(src="@/assets/curso/images/tema1/img_20.svg", alt= "")
+              img(src="@/assets/curso/images/tema1/img_20.png", alt= "")
           .tarjeta.tarjeta.info-2.p-3(x="45%" y="14%" numero="1")
             h3 1. Área de captación
             p Se conforma por las partes más altas de la cuenca en donde la cobertura vegetal tiene una función fundamental en la regulación hídrica al encargarse de capturar el agua que se precipita al suelo en forma de niebla.  
@@ -409,7 +441,7 @@
           .tarjeta.tarjeta.info-2.p-3(x="39%" y="49%" numero="4")
             h3 4. Importante
             p.mb-0 En vista de que en la microcuenca se dan los procesos primarios de captación de aguas, es indispensable, en lo posible, mantener y conservar sus coberturas vegetales nativas, ya que cualquier desequilibrio en la conformación de estos frágiles sistemas naturales puede tener consecuencias bastante negativas en la
-          .tarjeta.tarjeta.info-2.p-3(x="51%" y="88%" numero="")
+          .tarjeta.tarjeta.info-2.p-3(x="51%" y="88%" numero="5")
             h3 Fauna presente
             p.mb-0 En estos ecosistemas es posible encontrar múltiples especies animales y de microorganismos que desempeñan funciones biológicas de suma importancia (descomposición de materia orgánica, dispersión de semillas, mantenimiento del equilibrio biológico); por tanto es un deber del productor cafetero velar por su protección y conservación, aun más porque producción cafetera, cada vez, se realiza a mayores altitudes. 
           .tarjeta.tarjeta.info-2.p-3(x="69%" y="58%" numero="6")
@@ -476,7 +508,7 @@
         img.mt-5(src="@/assets/curso/images/tema1/ico_14.svg", style="width: 100px").m-auto
       .col-lg-10
         p  #[span.text-deco1 ¡Importante!.]
-        p.mb-3 Para el cálculo de los volúmenes de agua y de los caudales, existen diversas herramientas y metodologías. Entre las más populares se encuentran:
+        p.mb-3 Para el cálculo de los volúmenes de agua y de los caudales, existen diversas herramientas y metodologías. #[br] Entre las más populares se encuentran:
           ul.lista-ul--color.mt-3
             li 
               i.fas.fa-circle.cac.mx-2
@@ -588,18 +620,18 @@
         ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
             figure
-              img(src="@/assets/curso/images/tema1/img_23.svg", alt= "")
-          .tarjeta.tarjeta.info-4.p-3(x="37.5%" y="21.7%" numero="")
+              img(src="@/assets/curso/images/tema1/img_23.png", alt= "")
+          .tarjeta.tarjeta.info-4.p-3(x="37.5%" y="34.7%" numero="")
             h3 O. Este horizonte se compone principalmente por materia orgánica. 
-          .tarjeta.tarjeta.info-4.p-3(x="37.5%" y="31%" numero="")
-            h3 A. Residuos orgánicos en estado de descomposición. Alto contenido de materia orgánica. 
           .tarjeta.tarjeta.info-4.p-3(x="37.5%" y="41%" numero="")
+            h3 A. Residuos orgánicos en estado de descomposición. Alto contenido de materia orgánica. 
+          .tarjeta.tarjeta.info-4.p-3(x="37.5%" y="51%" numero="")
             h3 E. Posee alta concentración de arena y limo sin rasgos de roca madre.
-          .tarjeta.tarjeta.info-4.p-3(x="37.5%" y="53.8%" numero="")
+          .tarjeta.tarjeta.info-4.p-3(x="37.5%" y="59.8%" numero="")
             h3 B. Horizonte de transición compuesto por materiales precipitados del horizonte A. 
-          .tarjeta.tarjeta.info-4.p-3(x="37.5%" y="67%" numero="")
+          .tarjeta.tarjeta.info-4.p-3(x="37.5%" y="72.5%" numero="")
             h3 C. Compuesto por materiales resultantes de la descomposición de la roca madre o el material parental. 
-          .tarjeta.tarjeta.info-4.p-3(x="37.5%" y="84%" numero="")
+          .tarjeta.tarjeta.info-4.p-3(x="37.5%" y="86.5%" numero="")
             h3 D. Se compone por rocas de gran tamaño que por procesos de meteorización dan origen a la fracción mineral de los horizontes más superficiales.
 
     .row.justify-content-center.align-items
@@ -614,18 +646,25 @@
       .col-lg-4
         img(src="@/assets/curso/images/tema1/ico_18.svg", style="width: 250px").m-auto
 
-    .row.align-items-center
+    .row.align-items-center.d-none.d-lg-block  
         .col-lg-8
           p.aling-4 El tercero de los factores abióticos que se debe tener en cuenta para el estudio de los ecosistemas es el que corresponde a los factores climáticos, los cuales tienen una gran influencia en el desarrollo de plantas y animales, porque elementos como la radiación solar, la temperatura, la precipitación y la humedad relativa, son determinantes en los flujos de la energía que se dan en los entornos naturales.
-    .row.align-items-center.fondo-4.p-5
+    .row.align-items-center.fondo-4.p-5.d-none.d-lg-block  
       .col-lg-6.mb-lg-0.p-2
-          p.aling-3 El clima es el conjunto fluctuante de las condiciones atmosféricas, caracterizado por los estados y evoluciones del estado del tiempo, durante un periodo de tiempo y un lugar o región dados, y controlado por los denominados factores forzantes, factores determinantes y por la interacción entre los diferentes componentes del denominado sistema climático (atmósfera, hidrosfera, litosfera, criósfera, biosfera y antropósfera). 
+          p.aling-16 El clima es el conjunto fluctuante de las condiciones atmosféricas, caracterizado por los estados y evoluciones del estado del tiempo, durante un periodo de tiempo y un lugar o región dados, y controlado por los denominados factores forzantes, factores determinantes y por la interacción entre los diferentes componentes del denominado sistema climático (atmósfera, hidrosfera, litosfera, criósfera, biosfera y antropósfera). 
           p.aling-8 (IDEAM, 2022)
            
       .col-lg-6.mb-lg-0
-          img.mb-5(src="@/assets/curso/images/tema1/img_24.png" alt="", style="width:290px; display:block; margin: -6rem 14rem;")
-    .row.align-items-center
-        .col-lg-8
+          img.mb-5(src="@/assets/curso/images/tema1/img_24.png" alt="", style="width:290px; display:block; margin: -20rem 57rem;")
+    .row.align-items-center.d-block.d-lg-none
+      p El tercero de los factores abióticos que se debe tener en cuenta para el estudio de los ecosistemas es el que corresponde a los factores climáticos, los cuales tienen una gran influencia en el desarrollo de plantas y animales, porque elementos como la radiación solar, la temperatura, la precipitación y la humedad relativa, son determinantes en los flujos de la energía que se dan en los entornos naturales.
+      .row.align-items-center.fondo.responsive
+        .col-lg-8-lg-0
+          p.mt-3 Entre los factores que más amenazan la disponibilidad del agua están:
+           p El clima es el conjunto fluctuante de las condiciones atmosféricas, caracterizado por los estados y evoluciones del estado del tiempo, durante un periodo de tiempo y un lugar o región dados, y controlado por los denominados factores forzantes, factores determinantes y por la interacción entre los diferentes componentes del denominado sistema climático (atmósfera, hidrosfera, litosfera, criósfera, biosfera y antropósfera). 
+          p (IDEAM, 2022)
+        .col-lg-4.mb-lg-0
+          img.mb-2(src="@/assets/curso/images/tema1/img_24.png")
          
     p.mb-3.text-center.p-4 Se debe visualizar el recurso que se muestra a continuación y profundizar en los aspectos más importantes que sobre el clima,se deben tener en cuenta, en el ámbito de la finca cafetera.
 
@@ -690,12 +729,9 @@
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
+  components: {},
   data: () => ({
     // variables de vue
   }),

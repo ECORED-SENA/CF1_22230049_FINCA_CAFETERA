@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.bg-white.container-top.p-4.p-md-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
@@ -17,7 +17,7 @@
           p.mb-0 Los inicios de la cartografía datan de miles años, cuando los seres humanos vieron la necesidad de utilizar diferentes superficies para tallar, moldear o dibujar representaciones de la realidad espacial que les permitieran ubicar puntos de interés para el desarrollo de sus actividades cotidianas. 
         
       .col-auto.mb-5.mb-lg-0.onTop.order-1.order-lg-2
-        img(src="@/assets/curso/images/tema4/img_1.svg" alt='AvatarTop', style="width:430px; display:block; margin:-6rem -3rem;").m-auto
+        img(src="@/assets/curso/images/tema4/img_1.png" alt='AvatarTop', style="width:430px; display:block; margin:-6rem -3rem;").m-auto
 
     p.mb-3.text-center Los siguientes, son algunos aspectos de suma importancia que se debe conocer sobre la cartografía; se debe llevar registro de ello en una libreta personal de apuntes.
 
@@ -61,22 +61,24 @@
 
     #t_4_1.titulo-segundo.p-4
       .h4 4.1 Herramientas topográficas
+  .container.bg-white.p-4.p-md-5
+    .row.d-none.d-lg-block    
+      .row.align-items-center.mb-5
+        .col-lg-6
+        .col-lg-6
+          p.aling-20 Para la construcción de los mapas o los planos cartográficos, hoy día existen herramientas que facilitan el trabajo y dan mayor precisión a las mediciones de los predios, con lo cual se ahorra bastante tiempo y se disminuyen los costos de este tipo de labores.
+      .row.align-items-center.fondo-15.p-5
+        .col-lg-6.mb-lg-0
+            img.mb-5(src="@/assets/curso/images/tema4/img_6.png" alt="", style="width:540px; display:block; margin: -10rem -1rem;")
+        .col-lg-6.mb-lg-0.p-2
+            p.aling-14  Los avances en materia de sistemas de posicionamiento global han logrado que prácticamente cualquier persona, en cualquier lugar de la tierra, pueda conocer su ubicación en el planeta y obtener una representación gráfica de su posición. 
 
-    .row.align-items-center.mb-5.mg-top-1
-        .col-lg-5
-        .col-lg-7
-          p.aling-15 Para la construcción de los mapas o los planos cartográficos, hoy día existen herramientas que facilitan el trabajo y dan mayor precisión a las mediciones de los predios, con lo cual se ahorra bastante tiempo y se disminuyen los costos de este tipo de labores.
-    .row.align-items-center.fondo-15.p-5
-      .col-lg-6.mb-lg-0
-          img.mb-5(src="@/assets/curso/images/tema4/img_6.png" alt="", style="width:540px; display:block; margin: -7rem -1rem;")
-      .col-lg-6.mb-lg-0.p-2
-          p.aling-14  Los avances en materia de sistemas de posicionamiento global han logrado que prácticamente cualquier persona, en cualquier lugar de la tierra, pueda conocer su ubicación en el planeta y obtener una representación gráfica de su posición. 
+        .row.align-items-center
+          .col-lg-6
+          .col-lg-6
+            p.aling-14 Entre los elementos más comunes utilizados para el levantamiento topográfico, que es como se conoce a los procedimientos para conseguir la representación gráfica de la superficie, existen los siguientes:
 
-      .row.align-items-center
-        .col-lg-12
-          p.aling-13 Entre los elementos más comunes utilizados para el levantamiento topográfico, que es como se conoce a los procedimientos para conseguir la representación gráfica de la superficie, existen los siguientes:
-
-      .row.justify-content-center.align-items
+        .row.justify-content-center.align-items.mt-3
           .col-lg-10.mb-3
             ImagenInfografica.color-secundario.mb-5
               template(v-slot:imagen)
@@ -100,9 +102,44 @@
               .tarjeta.tarjeta.info-3.p-3(x="75.5%" y="88%" numero="")
                 h3.text-white Evolución de equipos para información de terrenos
                 p.text-white.mb-0 Ha habido una evolución importante en la forma como se procesan datos y en la manera como se registra información para, finalmente, convertirse en representaciones gráficas de la realidad. Los programas para el procesamiento de información tienen la capacidad de establecer comunicación directa con los equipos de captura, por lo que cada vez es menor la participación del humano en lo relacionado con la generación de los cálculos y la producción del material cartográfico. 
+            
+            p.mb-3.text-center <b> Algunas consideraciones para la generación de información cartográfica del predio son las siguientes:</b>
     
+    .row.align-items-center.d-block.d-lg-none
+      p Para la construcción de los mapas o los planos cartográficos, hoy día existen herramientas que facilitan el trabajo y dan mayor precisión a las mediciones de los predios, con lo cual se ahorra bastante tiempo y se disminuyen los costos de este tipo de labores.
+      .row.align-items-center.fondo.responsive-1
+        .col-lg-4.mb-lg-0
+          img.mt-3(src="@/assets/curso/images/tema4/img_6.png")
+        .col-lg-8-lg-0
+          p.mt-3 Los avances en materia de sistemas de posicionamiento global han logrado que prácticamente cualquier persona, en cualquier lugar de la tierra, pueda conocer su ubicación en el planeta y obtener una representación gráfica de su posición. 
+          p Entre los elementos más comunes utilizados para el levantamiento topográfico, que es como se conoce a los procedimientos para conseguir la representación gráfica de la superficie, existen los siguientes:
 
-    p.mb-3.text-center <b> Algunas consideraciones para la generación de información cartográfica del predio son las siguientes:</b>
+      .row.justify-content-center.align-items.mt-3
+        .col-lg-10.mb-3
+          ImagenInfografica.color-secundario.mb-5
+            template(v-slot:imagen)
+              figure
+                img(src="@/assets/curso/images/tema4/img_7.svg", alt= "")
+            .tarjeta.tarjeta.info-3.p-3(x="25%" y="90%" numero="")
+              h3.text-white GPS Sistemas de posicionamiento global
+              p.text-white Equipos que, mediante la comunicación con los satélites que orbitan la tierra, tienen la facilidad de “triangular” la posición del aparato sobre la superficie terrestre. Utilizan sistemas de coordenadas, los cuales dan como resultado una medición bastante precisa de la ubicación del observador. Son ampliamente utilizados en la navegación, los levantamientos topográficos y la construcción, entre otras industrias. 
+            .tarjeta.tarjeta.info-3.p-3(x="66.5%" y="73%" numero="")
+              h3.text-white Sistema de medición mecánico – óptico
+              p.text-white Sirve para medir ángulos verticales y horizontales, con lo cual es posible medir distancias y desniveles. A diferencia del GPS, el teodolito, en su versión más básica, no tiene conexión satelital y depende de puntos de referencia conocidos para la ubicación espacial de algún punto definido. 
+            .tarjeta.tarjeta.info-3.p-3(x="43.5%" y="63%" numero="")
+              h3.text-white Herramienta de medición de distancias
+              p.text-white Consiste en una cinta que posee líneas marcadas de forma longitudinal en la cual se observan las unidades de medida. Generalmente están adaptadas al sistema métrico, aunque también están aforadas en pies y pulgadas.
+            .tarjeta.tarjeta.info-3.p-3(x="55.7%" y="63%" numero="")
+              h3.text-white Smart Phones
+              p.text-white.mb-0 Herramientas de suma utilidad a las cuales tiene acceso casi la totalidad de la población. Dentro de sus aplicaciones y utilidades se incluyen sistemas de posicionamiento global los cuales funcionan bajo los mismos principios de los GPS. 
+            .tarjeta.tarjeta.info-3.p-3(x="33.5%" y="73%" numero="")
+              h3.text-white Evolución de los teodolitos mecánicos
+              p.text-white.mb-0 Incorporan elementos electrónicos que permiten aumentar la precisión de las mediciones. Vienen provistas de diversos programas sencillos que permiten, entre otras capacidades, el cálculo de coordenadas en campo, replanteo de puntos de manera sencilla y eficaz y cálculo de acimutes y distancias.
+            .tarjeta.tarjeta.info-3.p-3(x="75.5%" y="88%" numero="")
+              h3.text-white Evolución de equipos para información de terrenos
+              p.text-white.mb-0 Ha habido una evolución importante en la forma como se procesan datos y en la manera como se registra información para, finalmente, convertirse en representaciones gráficas de la realidad. Los programas para el procesamiento de información tienen la capacidad de establecer comunicación directa con los equipos de captura, por lo que cada vez es menor la participación del humano en lo relacionado con la generación de los cálculos y la producción del material cartográfico. 
+
+        p.mb-3.text-center <b> Algunas consideraciones para la generación de información cartográfica del predio son las siguientes:</b>
 
     .row.justify-content-center.align-items.p-5.mb-5.fondo-13
       .col-lg-10.mb-lg-0.p-2
@@ -137,12 +174,12 @@
 
       .col-lg-10
         .row.justify-content-center.align-items
-          .col-lg-2 
+          .col-3.col-md-2.col-lg-2.col-xl-2.mb-3
             img(src="@/assets/curso/images/tema2/ico_2.svg", alt= "")
           .col-lg-10 
             h3 ¡Atención!
             p.mb-0 Es importante incluir toda la información que sea posible, con esto se obtendrá un material de gran calidad para procesos de planeación predial y la toma de decisiones que contribuyan a la protección de los ecosistemas.
-    
+  .container.bg-white.p-4.p-md-5.container-bottom  
     Separador 
 
     #t_4_2.titulo-segundo.p-4
@@ -233,7 +270,7 @@
 
         p.mb-0 Por lo general, las coordenadas se manejan en el sistema WGS84 (World Geodetic System 1984), debido a que es el más empleado en el mundo entero. Respecto al tipo de coordenadas estas pueden ser geográficas (expresadas en grados, minutos y segundos) o planas, las cuales son bidimensionales, por lo que se presentan únicamente como “X” o “Y”.
 
-    .col-lg-4
+    .col-4.col-md-2.col-lg-4.col-xl-4.mb-3
       .row.justify-content-center.align-items.mb-3
         .col-lg-6
           img(src="@/assets/curso/images/tema4/ico_4.svg", alt= "")
@@ -411,7 +448,7 @@
 
     p.text-center <b> La relación de proporcionalidad se expresa por lo general como una razón o fracción, por ejemplo: </b>
 
-    SlyderB.mb-5(:datos="datosSlyder2").fondo-11.mg-top-2
+    SlyderB(:datos="datosSlyder2").fondo-11.mg-top-2
 
 
 

@@ -109,7 +109,7 @@
             p.mb-0 Uno de los temas que ha ocupado recientemente la atención del mundo es la captura de carbono, la cual se considera en la actualidad como una de las principales herramientas para la disminución de la incidencia de los gases de efecto invernadero. Para ello se recurre a la capacidad de los árboles para retener el dióxido de carbono de la atmósfera para almacenarlo en sus tejidos.
 
         .row.justify-content-center.align-items
-          .col-lg-2 
+          .col-3.col-md-2.col-lg-2.col-xl-2.mb-3
             img(src="@/assets/curso/images/tema2/ico_2.svg", alt= "")
           .col-lg-10 
             h3 ¡Importante!
@@ -149,15 +149,24 @@
     #t_2_4.titulo-segundo.p-4
       .h4 2.4 Bienes y servicios culturales
 
-    .row.align-items-center
+    .row.align-items-center.d-none.d-lg-block  
         .col-lg-8
           p.aling-4 Además de la función biológica que tienen los ecosistemas, es posible encontrar otros beneficios que se relacionan con una visión mucho más integral, la cual trasciende el plano netamente físico y considera factores espirituales, artísticos, intelectuales y cognitivos.
-    .row.align-items-center.fondo-10.p-5
+    .row.align-items-center.fondo-10.p-5.d-none.d-lg-block  
       .col-lg-6.mb-lg-0.p-2
           p.aling-3 “Son los beneficios no materiales obtenidos de los ecosistemas, a través del enriquecimiento espiritual, belleza escénica, inspiración artística e intelectual, el desarrollo cognitivo, la reflexión, la recreación y las experiencias estéticas”  
           p.aling-9 (MEA, 2005). 
       .col-lg-6.mb-lg-0
-          img.mb-5(src="@/assets/curso/images/tema2/img_10.png" alt="", style="width:420px; display:block; margin: -6rem 7rem;")
+          img.mb-5(src="@/assets/curso/images/tema2/img_10.png" alt="", style="width:420px; display:block; margin: -12rem 49rem;")
+
+    .row.align-items-center.d-block.d-lg-none.mb-3
+      p Además de la función biológica que tienen los ecosistemas, es posible encontrar otros beneficios que se relacionan con una visión mucho más integral, la cual trasciende el plano netamente físico y considera factores espirituales, artísticos, intelectuales y cognitivos.
+      .row.align-items-center.fondo.responsive
+        .col-lg-8-lg-0
+          p.p-3 “Son los beneficios no materiales obtenidos de los ecosistemas, a través del enriquecimiento espiritual, belleza escénica, inspiración artística e intelectual, el desarrollo cognitivo, la reflexión, la recreación y las experiencias estéticas”  
+          p.p-3 (MEA, 2005). 
+        .col-lg-4.mb-lg-0
+          img.mb-2(src="@/assets/curso/images/tema2/img_10.png")
 
     p.mb-3.text-center  Entre estos elementos, es posible enunciar los siguientes:
 

@@ -17,7 +17,7 @@
           p.mb-0 Para lograr identificar la oferta de servicios ambientales de la finca cafetera, también es necesario hacer un inventario que recoja tanto los conflictos como los problemas ambientales presentes en el territorio para, de esta manera, diseñar alternativas que permitan mitigar, corregir o prevenir situaciones que puedan afectar el desarrollo de la actividad productiva y su sostenibilidad. 
         p.aling-2.mt-2.text-color <b> Etter, 2002 </b> 
       .col-auto.mb-5.mb-lg-0.onTop.order-2.order-lg-1
-        img(src="@/assets/curso/images/tema3/img_1.svg" alt='AvatarTop', style="width:430px; display:block; margin:-6rem -3rem;").m-auto
+        img(src="@/assets/curso/images/tema3/img_1.png" alt='AvatarTop', style="width:430px; display:block; margin:-6rem -3rem;").m-auto
 
     p.mb-3.text-center <b>Para diferenciar los conflictos de los problemas ambientales es importante tener en cuenta, ver tabla 1:</b>
 
