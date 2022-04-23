@@ -72,7 +72,7 @@
             img.mb-5(src="@/assets/curso/images/tema4/img_6.png" alt="", style="width:540px; display:block; margin: -10rem -1rem;")
         .col-lg-6.mb-lg-0.p-2
             p.aling-14  Los avances en materia de sistemas de posicionamiento global han logrado que prácticamente cualquier persona, en cualquier lugar de la tierra, pueda conocer su ubicación en el planeta y obtener una representación gráfica de su posición. 
-
+      
         .row.align-items-center
           .col-lg-6
           .col-lg-6
@@ -224,7 +224,7 @@
       .col-lg-6
         img.mt-5(src="@/assets/curso/images/tema4/img_9.svg", style="width: 300px").m-auto
       .col-lg-6
-        p.aling-12.mb-0 Para conocer la ubicación de los elementos dentro del mapa y trasladar esa información a la realidad, es necesario empezar por conocer la orientación, la cual está dada por la “rosa de los vientos”. La rosa de los vientos indica los cuatro puntos cardinales y en el mapa siempre se ubica con el norte apuntando hacia la parte superior del mapa y el este a la derecha.
+        p.aling-12.mb-0.px-5 Para conocer la ubicación de los elementos dentro del mapa y trasladar esa información a la realidad, es necesario empezar por conocer la orientación, la cual está dada por la “rosa de los vientos”. La rosa de los vientos indica los cuatro puntos cardinales y en el mapa siempre se ubica con el norte apuntando hacia la parte superior del mapa y el este a la derecha.
 
     p.mb-3.text-center <b>Para la ubicación de los puntos cardinales en la finca cafetera:</b>
 

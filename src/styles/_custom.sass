@@ -17,7 +17,7 @@
   background-repeat: no-repeat
 .fondo-4
   background-image: url('../assets/curso/images/tema1/rec.svg')
-  background-size: 120%
+  background-size: 160%
   background-repeat: no-repeat
 .fondo-5
   background-image: url('../assets/curso/images/tema1/rec_2.svg')
@@ -89,10 +89,11 @@
   background-size: cover
   background-position: center
   background-repeat: no-repeat
-  padding: 40px
-  position: relative
   margin-inline-start: -3rem
   margin-inline-end: -4rem
+@media screen and (max-width: 992px)
+  margin-inline-start: 0px !important
+  margin-inline-end: 0px !important
 .fondo-15
   background-image: url('../assets/curso/images/tema4/back_full.svg')
   background-size: cover
@@ -149,13 +150,13 @@
   position: relative 
   padding: 2.5rem 1.5rem 
   background: #FCDDA2
-    position: relative 
+  p
   &:before 
     content: ""
     position: absolute
     top: 0
     left: 90%
-    width: 70%
+    width: 40%
     height: 100%
     background: #FCDDA2
     z-index: 0
@@ -178,7 +179,7 @@
 .aling-6
   text-align: left !important
   margin-bottom: 12rem
-  margin-left: -1.5rem
+  margin-left: 1rem
 .aling-7
   text-align: left !important
   margin-left: 90px
@@ -197,14 +198,15 @@
   margin-top: -4rem
 .aling-12
   margin-left: -3rem
-  margin-top: 5rem
+  margin-top: 4rem
 .aling-13
   text-align: left !important
   margin-left: 33rem
   margin-top: -170px
 .aling-14
   text-align: left !important
-  margin-top: -180px
+  margin-top: -140px
+  margin-left: -1rem
 .aling-15
   text-align: left !important
   margin-left: 6rem
@@ -225,8 +227,9 @@
   text-align: left !important
   margin-left: -2.5rem
 .aling-20
-  margin-left: -3rem
-  margin-top: 3rem
+  margin-left: -1rem
+  margin-top: -3rem
+  margin-bottom: -2rem
 .text-color
   color: #D2984D
 .linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
@@ -528,12 +531,14 @@
 .tarjeta.info-2
   background-color: #FFC200
   border: solid 2px #FFFFFF !important
+  margin-right: 30px
 .tarjeta.info-3
   background-color: #3C2C26
   border: solid 2px #FFFFFF !important
 .tarjeta.info-4
   background-color: #FFFFFF
   border: solid 2px #CA6432 !important
+  margin-bottom: -25rem
 .anexo:active, .anexo:focus, .anexo:hover 
   background-color: #FFF8DB
 .img250
@@ -595,7 +600,8 @@
   background-color: #FFF
 .cs
   overflow-y: hidden
-
+.banner-principal__img img
+    width: 360px
 
 
 

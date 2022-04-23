@@ -266,7 +266,7 @@
                 i.fas.fa-circle.cac.mx-2
                 | El desarrollo de prácticas agrícolas poco sostenibles.
       .col-lg-6.mb-lg-0
-          img.mb-5(src="@/assets/curso/images/tema1/paisaje.png" alt="", style="width:290px; display:block; margin: -20rem 58rem;")
+          img.mb-5(src="@/assets/curso/images/tema1/paisaje.png" alt="", style="width:290px; display:block; margin: -21rem 45rem;")
     .row.align-items-center.d-none.d-lg-block 
       .col-lg-8
         p.aling-5 Además de la pérdida de este importante recurso, su mal manejo y contaminación se ha convertido en un problema de salud pública, debido a que el deterioro de la calidad del agua tiene una relación directa con la alta incidencia de diversas enfermedades que afectan a toda la población. 
@@ -653,9 +653,8 @@
       .col-lg-6.mb-lg-0.p-2
           p.aling-16 El clima es el conjunto fluctuante de las condiciones atmosféricas, caracterizado por los estados y evoluciones del estado del tiempo, durante un periodo de tiempo y un lugar o región dados, y controlado por los denominados factores forzantes, factores determinantes y por la interacción entre los diferentes componentes del denominado sistema climático (atmósfera, hidrosfera, litosfera, criósfera, biosfera y antropósfera). 
           p.aling-8 (IDEAM, 2022)
-           
       .col-lg-6.mb-lg-0
-          img.mb-5(src="@/assets/curso/images/tema1/img_24.png" alt="", style="width:290px; display:block; margin: -20rem 57rem;")
+          img.mb-5(src="@/assets/curso/images/tema1/img_24.png" alt="", style="width:290px; display:block; margin: -20rem 47rem;")
     .row.align-items-center.d-block.d-lg-none
       p El tercero de los factores abióticos que se debe tener en cuenta para el estudio de los ecosistemas es el que corresponde a los factores climáticos, los cuales tienen una gran influencia en el desarrollo de plantas y animales, porque elementos como la radiación solar, la temperatura, la precipitación y la humedad relativa, son determinantes en los flujos de la energía que se dan en los entornos naturales.
       .row.align-items-center.fondo.responsive

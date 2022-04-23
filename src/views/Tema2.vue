@@ -79,7 +79,7 @@
     
     p.mb-4.text-center <b>Dentro de este gran grupo de bienes y servicios de abastecimiento se distinguen las siguientes subcategorías:</b>
 
-  .container.bg-white.p-4.p-md-5.fondo-9
+  .container.bg-white.p-4.p-md-5.fondo-9.cs
     .row.justify-content-center.align-items
       .col-lg-8.mb-3
         ImagenInfografica.color-secundario.mb-5
@@ -157,7 +157,7 @@
           p.aling-3 “Son los beneficios no materiales obtenidos de los ecosistemas, a través del enriquecimiento espiritual, belleza escénica, inspiración artística e intelectual, el desarrollo cognitivo, la reflexión, la recreación y las experiencias estéticas”  
           p.aling-9 (MEA, 2005). 
       .col-lg-6.mb-lg-0
-          img.mb-5(src="@/assets/curso/images/tema2/img_10.png" alt="", style="width:420px; display:block; margin: -12rem 49rem;")
+          img.mb-5(src="@/assets/curso/images/tema2/img_10.png" alt="", style="width:420px; display:block; margin: -14rem 38rem;")
 
     .row.align-items-center.d-block.d-lg-none.mb-3
       p Además de la función biológica que tienen los ecosistemas, es posible encontrar otros beneficios que se relacionan con una visión mucho más integral, la cual trasciende el plano netamente físico y considera factores espirituales, artísticos, intelectuales y cognitivos.
