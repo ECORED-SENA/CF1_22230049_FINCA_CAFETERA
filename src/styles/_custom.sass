@@ -8,9 +8,15 @@
   background-size: cover
   background-repeat: no-repeat
 .fondo-2
-  background-image: url('../assets/curso/images/tema1/back_3_1.svg')
-  background-size: 100%
+  background-image: url('../assets/curso/images/tema1/back_3_1.jpg')
+  background-size: cover
   background-repeat: no-repeat
+  @media (max-width: $bp-max-md)
+    background-color: #f7e889 !important
+    background-image: none !important
+    
+
+  margin: 0 -3rem
 .fondo-3
   background-image: url('../assets/curso/images/tema1/back_slyder.svg')
   background-size: cover

@@ -3,7 +3,7 @@
   .container.tarjeta.position-relative(
     :style="{'background-image': globalData.fondoBannerPrincipal ? `url(${globalData.fondoBannerPrincipal})` : 'none'}"
   )
-    .row.banner-principal__row.position-relative.justify-content-center.align-items-center
+    .row.banner-principal__row.position-relative.justify-content-center.align-items-center.g-5
       .col-lg-7.col-xxl-6.py-4.py-sm-5.banner-principal__info.ps-5
         .banner-principal__componente
           h1.mb-0(v-html="globalData.componenteFormativo")
@@ -12,19 +12,14 @@
             p.mb-0(v-html="globalData.descripcionCurso")
         .banner-principal__accion
           router-link.boton(:to="{name: iniciarLnk.nombreRuta }")
-            span.me-1 Iniciar
+            span.me-1 Ver más
             i.fas.fa-angle-right
 
-      .d-none.d-lg-block.col-lg-5.px-0.position-relative.img-p
-        img(:src="globalData.imagenBannerPrincipal" style="width: 520px")
-    .d-none.d-xl-block.imagen_flotante_5: img(src="@/assets/curso/images/header/banner-principal.png" alt='' , style="width:500px; display:block; margin:0 auto;")
-    .imagen_flotante_1.d-none.d-xl-block: img(src="@/assets/curso/images/header/flotante_1.png" alt='' , style="width:100px; display:block; margin:0 auto;")
-    .imagen_flotante_2.d-none.d-xl-block: img(src="@/assets/curso/images/header/flotante_2.png" alt='' , style="width:100px; display:block; margin:0 auto;")
-    .d-none.d-xl-block.imagen_flotante_3: img(src="@/assets/curso/images/header/flotante_3.png" alt='' , style="width:100px; display:block; margin:0 auto;")
-    .d-none.d-xl-block.imagen_flotante_4: img(src="@/assets/curso/images/header/flotante_4.png" alt='' , style="width:50px; display:block; margin:0 auto;")
-    .d-none.d-xl-block.imagen_flotante_6: img(src="@/assets/curso/images/header/flotante_6.png" alt='' , style="width:50px; display:block; margin:0 auto;")
-    .d-none.d-xl-block.imagen_flotante_7: img(src="@/assets/curso/images/header/flotante_5.png" alt='' , style="width:450px; display:block; margin:0 auto;")
-  
+      .d-none.d-lg-block.col-lg-6.px-0.banner-principal__img
+        img(:src="globalData.imagenBannerPrincipal" style="width: 606px")
+    .imagen_flotante_1: img(src="@/assets/curso/float1.png")
+    .imagen_flotante_2: img(src="@/assets/curso/float2.png")
+    .imagen_flotante_3: img(src="@/assets/curso/float3.png")
   
 
 </template>
@@ -32,7 +27,7 @@
 <script>
 import mixins from '../components/plantillaMixins'
 export default {
-  name: 'BannerPrincipal2',
+  name: 'BannerPrincipal',
   mixins: [mixins],
   computed: {
     globalData() {
@@ -43,9 +38,6 @@ export default {
 </script>
 
 <style lang="sass">
-.img-p
-  top: 3%
-  right: 1%
 .fondo-contenido
   position: absolute
   padding: 0px
@@ -53,9 +45,10 @@ export default {
   height: 100%
   width: 100%
 .banner-principal__info
-  padding-left: 95px  !important
-  margin-top: 5px
+  padding-left: 80px  !important
   z-index: 3
+
+
 .banner-principal
   p, h1, h2, h3, h4, h5, h6
     color: $color-banner-text
@@ -64,7 +57,6 @@ export default {
     background-color: $color-banner-fondo
     background-size: cover
     background-position: center
-    height: 32rem
 
   &__info
     display: flex
@@ -100,6 +92,7 @@ export default {
 
   &__img
     animation: scale 5s ease-in-out infinite alternate
+    width: 40%
     @if $banner-principal-img-y == 'arriba'
       align-self: flex-start
       padding-bottom: 1.5rem
@@ -121,66 +114,66 @@ export default {
 
 .imagen_flotante
   &_1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 3s ease-in-out infinite alternate
     position: absolute
-    width: 242px
-    height: 200px
-    top: 30%
-    left: 54%
-    z-index: 99
+    width: 133px
+    top: 80px
+    left: 55%
   &_2
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    width: 223px
-    height: 168px
-    bottom: 45%
-    right: 20%
-    z-index: 99
+    width: 133px
+    bottom: 50px
+    box-shadow:
+    left: 65%
   &_3
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 3.8s ease-in-out infinite alternate
     position: absolute
-    width: 90rem
-    bottom: 17%
-    left: 25%
-    z-index: 99
+    width: 145px
+    bottom: 80px
+    left: 80%
   &_4
     animation: float1 4s ease-in-out infinite alternate
     position: absolute
-    width: 350px
-    height: 294px
-    top: 38%
-    left: 75%
+    width: 90px
+    top: -5%
+    left: 55%
     z-index: 99
   &_5
+    animation: float1 3.9s ease-in-out infinite alternate
     position: absolute
-    width: 480px
-    top: 25%
-    left: 60%
+    width: 40px
+    top: 3%
+    left: 30%
     z-index: 99
   &_6
     filter: blur(2px)
     animation: float1 2.7s ease-in-out infinite alternate
     position: absolute
-    width: 267px
+    width: 167px
     top: 30%
     right: 3%
     z-index: 99
   &_7
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    width: 180px
-    bottom: 20%
-    right: 15%
+    width: 50px
+    bottom: 10%
+    right: 3%
     z-index: 99
   &_8
     filter: blur(1px)
 
     animation: float1 3s ease-in-out infinite alternate
     position: absolute
-    width: 50px
-    bottom: 20%
-    right: 8%
+    width: 186px
+    top: 5%
+    right: -6%
     z-index: 99
+    @media  (max-width: $bp-max-lg)
+      display: none
+
+
 
 @keyframes float1
   0%
@@ -190,7 +183,7 @@ export default {
     transform: translateY(0px)
 @keyframes scale
   0%
-    transform: scale(1.1)
+    transform: scale(1.01)
 
   100%
     transform: scale(1)

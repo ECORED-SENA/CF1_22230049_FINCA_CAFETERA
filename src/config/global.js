@@ -5,6 +5,7 @@ export default {
     descripcionCurso:
       'A través del estudio de este componente, el aprendiz estará más y mejor capacitado en las competencias e implicaciones del proceso productivo: identificación de ecosistemas, normativa ambiental, desarrollo de prácticas para reducción de impactos de la caficultura sobre el entorno natural, herramientas topográficas, entre otros. Todo ello como soporte de su responsabilidad con la sostenibilidad, en términos ambientales.',
     fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/banner.png'),
     fondoBannerInterno: require('@/assets/curso/images/header/interno.svg'),
   },
   menuPrincipal: {
