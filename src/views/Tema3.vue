@@ -25,7 +25,7 @@
 
     .row.justify-content-center.align-items-center
       .col-lg-10
-        .tabla-a.tabla
+        .tabla-a.tabla.color-secundario
           table
             thead
               tbody
