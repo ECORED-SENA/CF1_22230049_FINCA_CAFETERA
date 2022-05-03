@@ -3,10 +3,10 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .col-lg-3.aling-12
-      .row.justify-content-center.align-items.mb-3
-        .col-lg-6
-          img(src="@/assets/curso/images/tema4/ico-sintensis.svg", alt= "")
+    .titulo-cafe.mb-5
+      h3.mb-0.text-center.color-secundario.font-weight-bold.me-5
+        |Síntesis
+      .titulo-cafe_icon: img(src='@/assets/curso/17.svg' alt='Icono de la categoria')
     
     p.aling-1.mb-3 Se ha finalizado el estudio de los contenidos de este componente formativo. En este punto, se invita a hacer un análisis de la estructura que se muestra a continuación. Se debe registrar una síntesis propia en una libreta de apuntes personal. Se debe repasar los puntos que se considere necesario. ¡Adelante!
 
