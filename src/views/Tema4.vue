@@ -7,20 +7,18 @@
         span 4
       h1 Cartografía predial
 
-    .row.justify-content-center.align-items-center.mb-5
-      .row.justify-content-center.align-items-center
-        .col-lg-5
-        .col-lg-6
-          p.aling-10.mb-0 La cartografía es la “disciplina que estudia los diferentes métodos, sistemas, operaciones científicas y técnicas que permiten representar en un plano la superficie terrestre y los fenómenos o hechos que se desarrollan sobre ella. El producto de la representación recibe el nombre de cartografía, mapa o carta” (IGAC, 20216).
-      .col-lg.order-2.order-lg-2
-        .custom_box_rigth 
-          p.mb-0 Los inicios de la cartografía datan de miles años, cuando los seres humanos vieron la necesidad de utilizar diferentes superficies para tallar, moldear o dibujar representaciones de la realidad espacial que les permitieran ubicar puntos de interés para el desarrollo de sus actividades cotidianas. 
-        
-      .col-auto.mb-5.mb-lg-0.onTop.order-1.order-lg-2
-        img(src="@/assets/curso/images/tema4/img_1.png" alt='AvatarTop', style="width:430px; display:block; margin:-6rem -3rem;").m-auto
-
-    p.mb-3.text-center Los siguientes, son algunos aspectos de suma importancia que se debe conocer sobre la cartografía; se debe llevar registro de ello en una libreta personal de apuntes.
-
+    .franja_content.mb-5
+      .franja(style='bottom: 15%; height: 177px').me-5
+      .content
+        .row.justify-content-center.align-items-center
+          .col-lg-7
+          
+            p.mb-5 La cartografía es la “disciplina que estudia los diferentes métodos, sistemas, operaciones científicas y técnicas que permiten representar en un plano la superficie terrestre y los fenómenos o hechos que se desarrollan sobre ella. El producto de la representación recibe el nombre de cartografía, mapa o carta” (IGAC, 20216).
+            p.mb-4 Los inicios de la cartografía datan de miles años, cuando los seres humanos vieron la necesidad de utilizar diferentes superficies para tallar, moldear o dibujar representaciones de la realidad espacial que les permitieran ubicar puntos de interés para el desarrollo de sus actividades cotidianas.
+          .col-lg-5: img(src='@/assets/curso/images/tema4/img_1.png', alt='')
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        p.mb-5.text-center.fw-bold Los siguientes, son algunos aspectos de suma importancia que se debe conocer sobre la cartografía; se debe llevar registro de ello en una libreta personal de apuntes.
     .row.justify-content-center.align-items
       .col-lg-10 
         LineaTiempoD.color-secundario.especial
@@ -59,8 +57,8 @@
 
     Separador 
 
-    #t_4_1.titulo-segundo.p-4
-      .h4 4.1 Herramientas topográficas
+    #t_4_1.titulo-segundo
+      h2 4.1 Herramientas topográficas
   .container.bg-white.p-4.p-md-5
     .row.d-none.d-lg-block    
       .row.align-items-center.mb-5
@@ -179,11 +177,10 @@
           .col-lg-10 
             h3 ¡Atención!
             p.mb-0 Es importante incluir toda la información que sea posible, con esto se obtendrá un material de gran calidad para procesos de planeación predial y la toma de decisiones que contribuyan a la protección de los ecosistemas.
-  .container.bg-white.p-4.p-md-5.container-bottom  
     Separador 
 
-    #t_4_2.titulo-segundo.p-4
-      .h4 4.2 Interpretación cartográfica
+    #t_4_2.titulo-segundo
+      h2 4.2 Interpretación cartográfica
     
     .row.justify-content-center.align-items.p-4
       .col-lg-6
@@ -216,15 +213,16 @@
       .col-lg-6
         img.mt-5(src="@/assets/curso/images/tema4/img_8.png", style="width: 590px").m-auto
 
-    .row.align-items-center.mb-5
-      .col-lg-5
-        img(src="@/assets/curso/images/tema4/ico_2.svg", style="width: 400px").m-auto
-
-    .row.justify-content-center.align-items.fondo-14.p-4.mb-5
-      .col-lg-6
-        img.mt-5(src="@/assets/curso/images/tema4/img_9.svg", style="width: 300px").m-auto
-      .col-lg-6
-        p.aling-12.mb-0.px-5 Para conocer la ubicación de los elementos dentro del mapa y trasladar esa información a la realidad, es necesario empezar por conocer la orientación, la cual está dada por la “rosa de los vientos”. La rosa de los vientos indica los cuatro puntos cardinales y en el mapa siempre se ubica con el norte apuntando hacia la parte superior del mapa y el este a la derecha.
+    .titulo-cafe.mb-5
+      h3.mb-0.text-center.color-secundario.font-weight-bold.me-4
+        |Orientación y sistemas de coordenadas.
+      .titulo-cafe_icon: img(src='@/assets/curso/17.svg' alt='Icono de la categoria')
+    .fondo-14.p-5.mb-5
+      .row.justify-content-center.align-items-center
+        .col-lg-4
+          img(src="@/assets/curso/images/tema4/img_9.svg", style="").m-auto
+        .col-lg-6
+          p Para conocer la ubicación de los elementos dentro del mapa y trasladar esa información a la realidad, es necesario empezar por conocer la orientación, la cual está dada por la “rosa de los vientos”. La rosa de los vientos indica los cuatro puntos cardinales y en el mapa siempre se ubica con el norte apuntando hacia la parte superior del mapa y el este a la derecha.
 
     p.mb-3.text-center <b>Para la ubicación de los puntos cardinales en la finca cafetera:</b>
 
@@ -232,16 +230,16 @@
       .col-lg-8.mb-5.mb-sm-0
         ol.lista-ol
           li 
-            span.text-bold 1. 
+            span.text-bold.text-color 1. 
             | Es necesario identificar la dirección en la que sale el sol, ya que esta indica el oriente.
           li 
-            span.text-bold 2. 
+            span.text-bold.text-color 2. 
             | Con el sol al lado derecho del observador, el norte estará ubicado al frente.
           li 
-            span.text-bold 3. 
+            span.text-bold.text-color 3. 
             | Con el norte en frente del observador, el sur estará a su espalda.
           li 
-            span.text-bold 4. 
+            span.text-bold.text-color 4. 
             |  Con el oriente (este) a la derecha del observador, el occidente (oeste) estará a su izquierda.
        
     .row.justify-content-center.align-items.mb-5
@@ -257,9 +255,9 @@
             .col-lg-10
               p.mb-3 Los planos y mapas son representaciones a escala de la realidad y, por lo tanto, deben tener un alto nivel de precisión, la cual se puede dar en términos de la posición y la altitud. Para que esto sea posible es necesario tener en cuenta cuatro elementos fundamentales: el sistema geográfico de referencia (sistema de coordenadas), un sistema de proyección cartográfica, la escala de representación y la simbología. 
           
-    p.text-center <b> En lo relativo al sistema geográfico de referencia, se debe tener en cuenta los siguientes aspectos clave: </b>
-
-    SlyderB(:datos="datosSlyder1").fondo-11
+    p.text-center.mb-5 <b> En lo relativo al sistema geográfico de referencia, se debe tener en cuenta los siguientes aspectos clave: </b>
+    .fondo-11.p-5
+      SlyderB(:datos="datosSlyder1").mt-5
 
 
     .row.justify-content-center.align-items.p-4.mb-5
@@ -279,14 +277,13 @@
 
     p.aling-4   Algunos de estos símbolos, muy comunes en los mapas y en los planos, internacionalmente, son los siguientes, ver tabla 2:
 
-    
-    .titulo-sexto.color-acento-contenido.aling-4  
-      p.mb-0 <b>Tabla 2 </b>
-        p Símbolos comunes en mapas y planos
+    .titulo-sexto.color-acento-contenido
+      h5 Tabla 2 
+      span Símbolos comunes en mapas y planos
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .tabla-a
+        .tabla-a.color-primario
           table
             thead 
               tr
@@ -322,7 +319,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .tabla-a
+        .tabla-a.color-primario
           table
             thead 
               tr
@@ -343,7 +340,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .tabla-a
+        .tabla-a.color-primario
           table
             thead 
               tr
@@ -375,7 +372,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .tabla-a
+        .tabla-a.color-primario
           table
             thead 
               tr
@@ -436,19 +433,15 @@
           li 
             i.fas.fa-circle.cac.mx-2
             | #[span.text-deco1 #[b Correspondencia:]] cada convención debe tener un significado, no se pueden dejar convenciones que no estén debidamente explicadas en la tabla de convenciones. 
-       
-
     Separador 
 
-    #t_4_3.titulo-segundo.p-4
-      .h4 4.3  Manejo de escalas
+    #t_4_3.titulo-segundo
+      h2 4.3  Manejo de escalas
 
-    p.mb-3.aling-4 El plano o mapa es una representación de la realidad, por lo que sus dimensiones deben dar una idea clara del tamaño de los elementos presentes en el paisaje, siempre conservando una relación de proporcionalidad, que es a lo que se le denomina escala.
-
-
-    p.text-center <b> La relación de proporcionalidad se expresa por lo general como una razón o fracción, por ejemplo: </b>
-
-    SlyderB(:datos="datosSlyder2").fondo-11.mg-top-2
+    p.mb-5 El plano o mapa es una representación de la realidad, por lo que sus dimensiones deben dar una idea clara del tamaño de los elementos presentes en el paisaje, siempre conservando una relación de proporcionalidad, que es a lo que se le denomina escala.
+    p.text-center.mb-5 <b> La relación de proporcionalidad se expresa por lo general como una razón o fracción, por ejemplo: </b>
+    .fondo-11.p-5
+      SlyderB(:datos="datosSlyder2")
 
 
 
