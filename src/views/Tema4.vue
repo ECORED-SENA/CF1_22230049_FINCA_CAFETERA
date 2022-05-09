@@ -50,7 +50,8 @@
           .row.color-custom(numero="4" titulo="Ofrece grandes aportes para una unidad productiva").align-items-center.p-4
             .col-lg-7
               h3 Ofrece grandes aportes para una unidad productiva
-              p Para entender un poco más lo que sucede al interior de los ecosistemas y analizar la forma como a través de la intervención humana se pueden transformar las dinámicas naturales, es necesario conocer qué elementos los integran y cómo están distribuidos dentro del paisaje.
+              p En el ámbito predial, es posible desarrollar ejercicios para la construcción de una base cartográfica. Incluso sin el uso de tecnologías de avanzada es posible elaborar mapas que den cuenta de la disposición de los elementos que hacen parte de la unidad productiva, con lo cual se tiene una visión general del predio y se facilitan los procesos de planificación.
+
             .col-lg-5.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/images/tema4/img_5.svg', style="width: 450px").m-auto
@@ -74,7 +75,7 @@
         .row.align-items-center
           .col-lg-6
           .col-lg-6
-            p.aling-14 Entre los elementos más comunes utilizados para el levantamiento topográfico, que es como se conoce a los procedimientos para conseguir la representación gráfica de la superficie, existen los siguientes:
+            p.aling-14 <b>Entre los elementos más comunes utilizados para el levantamiento topográfico, que es como se conoce a los procedimientos para conseguir la representación gráfica de la superficie, existen los siguientes:</b>
 
         .row.justify-content-center.align-items.mt-3
           .col-lg-10.mb-3
@@ -86,8 +87,8 @@
                 h3.text-white GPS Sistemas de posicionamiento global
                 p.text-white Equipos que, mediante la comunicación con los satélites que orbitan la tierra, tienen la facilidad de “triangular” la posición del aparato sobre la superficie terrestre. Utilizan sistemas de coordenadas, los cuales dan como resultado una medición bastante precisa de la ubicación del observador. Son ampliamente utilizados en la navegación, los levantamientos topográficos y la construcción, entre otras industrias. 
               .tarjeta.tarjeta.info-3.p-3(x="66.5%" y="73%" numero="")
-                h3.text-white Sistema de medición mecánico – óptico
-                p.text-white Sirve para medir ángulos verticales y horizontales, con lo cual es posible medir distancias y desniveles. A diferencia del GPS, el teodolito, en su versión más básica, no tiene conexión satelital y depende de puntos de referencia conocidos para la ubicación espacial de algún punto definido. 
+                h3.text-white Evolución de los teodolitos mecánicos
+                p.text-white Incorporan elementos electrónicos que permiten aumentar la precisión de las mediciones. Vienen provistas de diversos programas sencillos que permiten, entre otras capacidades, el cálculo de coordenadas en campo, replanteo de puntos de manera sencilla y eficaz y cálculo de acimutes y distancias
               .tarjeta.tarjeta.info-3.p-3(x="43.5%" y="63%" numero="")
                 h3.text-white Herramienta de medición de distancias
                 p.text-white Consiste en una cinta que posee líneas marcadas de forma longitudinal en la cual se observan las unidades de medida. Generalmente están adaptadas al sistema métrico, aunque también están aforadas en pies y pulgadas.
@@ -95,8 +96,8 @@
                 h3.text-white Smart Phones
                 p.text-white.mb-0 Herramientas de suma utilidad a las cuales tiene acceso casi la totalidad de la población. Dentro de sus aplicaciones y utilidades se incluyen sistemas de posicionamiento global los cuales funcionan bajo los mismos principios de los GPS. 
               .tarjeta.tarjeta.info-3.p-3(x="33.5%" y="73%" numero="")
-                h3.text-white Evolución de los teodolitos mecánicos
-                p.text-white.mb-0 Incorporan elementos electrónicos que permiten aumentar la precisión de las mediciones. Vienen provistas de diversos programas sencillos que permiten, entre otras capacidades, el cálculo de coordenadas en campo, replanteo de puntos de manera sencilla y eficaz y cálculo de acimutes y distancias.
+                h3.text-white Sistema de medición mecánico – óptico
+                p.text-white.mb-0 Sirve para medir ángulos verticales y horizontales, con lo cual es posible medir distancias y desniveles. A diferencia del GPS, el teodolito, en su versión más básica, no tiene conexión satelital y depende de puntos de referencia conocidos para la ubicación espacial de algún punto definido. 
               .tarjeta.tarjeta.info-3.p-3(x="75.5%" y="88%" numero="")
                 h3.text-white Evolución de equipos para información de terrenos
                 p.text-white.mb-0 Ha habido una evolución importante en la forma como se procesan datos y en la manera como se registra información para, finalmente, convertirse en representaciones gráficas de la realidad. Los programas para el procesamiento de información tienen la capacidad de establecer comunicación directa con los equipos de captura, por lo que cada vez es menor la participación del humano en lo relacionado con la generación de los cálculos y la producción del material cartográfico. 
@@ -248,7 +249,7 @@
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-10
-        .cajon.color-custom.p-4
+        .cajon.color-custom-4.p-4
           .row.align-items-center.justify-content-center 
             .col-lg-2
               img(src="@/assets/curso/images/tema4/ico_3.svg", style="width: 100px").m-auto
@@ -409,7 +410,7 @@
 
     .row.align-items-center.justify-content-center 
       .col-lg-10
-        .cajon.color-custom.p-4.mb-3
+        .cajon.color-custom-4.p-4.mb-3
           .row.align-items-center.justify-content-center 
             .col-lg-2
               img(src="@/assets/curso/images/tema4/ico_6.svg", style="width: 100px").m-auto

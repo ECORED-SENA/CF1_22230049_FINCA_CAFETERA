@@ -260,31 +260,52 @@ export default {
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Bienes y servicios ambientales - Decreto 1729 de 2002. [IDEAM]. Por el cual se reglamenta la Parte XIII, Título 2, Capítulo III del Decreto-ley 2811 de 1974 sobre cuencas hidrográficas, parcialmente el numeral 12 del Artículo 5° de la Ley 99 de 1993 y se dictan otras disposiciones. 6 de agosto de 2002. DO 44893.',
+      tipo: 'PDF',
+      link:
+        'http://www.ideam.gov.co/documents/24024/36843/Decreto_1729_de_2002.pdf/59ad8528-1179-4fd7-9075-aed67fce2b40#:~:text=Enti%C3%A9ndese%20por%20cuenca%20u%20hoya%20hidrogr%C3%A1fica%20el%20%C3%A1rea%20de%20aguas,de%20aguas%2C%20en%20un%20pantano',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Bienes y servicios de abastecimiento - TERRAZOCULTOR José Manuel. (2018). Pluviómetro casero',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=EyUjYCFbCjA',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+        'Bienes y servicios de abastecimiento - Ing. Jesús Márquez. (2020). Aprende a calcular el caudal (más fácil y en casa)',
       tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      link: 'https://www.youtube.com/watch?v=5uHyjcMBAvY',
+    },
+    {
+      texto:
+        'Bienes y servicios de regulación - Ingenia UdeA. (2018). Aforo de caudales',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=IDapeEITOSA',
+    },
+    {
+      texto:
+        'Recurso suelo - Wiracocha Foundation. (2015). Hablemos de suelos ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=mXoR0-c55II',
+    },
+    {
+      texto:
+        'Recurso suelo - Martinez, M. (2020). Nutrición Vegetal: Generalidades y Funciones de los Nutrientes ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=PO8B1ZnT8Rc',
+    },
+    {
+      texto:
+        'Ecología - Geo Api. (2014). Tutorial configuración inicial del GPS - GeoApiC7',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=2h6rOS8NvkQ',
+    },
+    {
+      texto:
+        'Herramientas topográficas - Geo Api. (2014). Tutorial configuración inicial del GPS - GeoApiC7',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=GXuiJ2lUDPc',
     },
   ],
   creditos: {
@@ -366,7 +387,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yenny Patricia Ulloa Villamizar',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

@@ -14,7 +14,7 @@
   @media (max-width: $bp-max-md)
     background-color: #f7e889 !important
     background-image: none !important
-    
+
 
   margin: 0 -3rem
 .fondo-3
@@ -67,8 +67,12 @@
   background-repeat: no-repeat
 .fondo-11
   background-image: url('../assets/curso/images/tema2/back_slyder_2.svg')
-  background-size: cover
   background-repeat: no-repeat
+  background-size: cover
+  background-position: top left
+  margin: 0 -3rem
+  padding: o 3rem
+  
 .fondo-12
   background: linear-gradient(180deg, rgba(242,230,209,1) 2%, rgba(244,229,211,1) 3%, rgba(255,255,255,1) 98%)
   background-size: 100%
@@ -235,7 +239,7 @@
   margin-top: -3rem
   margin-bottom: -2rem
 .text-color
-  color: #D2984D
+  color: #623E2A
 .linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
   background-color: #FFF0BF
 .linea-tiempo-d.color-secundario.especial
@@ -476,15 +480,18 @@
   border-bottom-left-radius: 1rem
   border-top-right-radius: 1rem
   border-top-left-radius: 1rem
-.color-custom
-  background-color: #FFF0BF
+
+.color-custom-4
+  background-color: #FCDDA2
+  &::before
+    background-color: #A75532
 .color-custom-info
   background-color: #839701
   border:  solid 2px #fff !important
 .color-custom-3
   background-color: #FCDDA2
   &::before
-  background-color: #D2984D
+    background-color: #D2984D
 .slyder-a__tipo-a .slyder-a__bullets 
   position: absolute
   bottom: 10px
@@ -493,7 +500,7 @@
 .color-custom-2
   background-color: #FCDDA2
   &::before
-  background-color: #D2984D
+    background-color: #D2984D
 .color-tarjeta-1
   background-color: #D78B65
 .color-tarjeta-2
@@ -542,7 +549,7 @@
 .tarjeta.info-4
   background-color: #FFFFFF
   border: solid 2px #CA6432 !important
-  margin-bottom: -25rem
+  margin-bottom: -15rem
 .anexo:active, .anexo:focus, .anexo:hover 
   background-color: #FFF8DB
 .img250
@@ -581,7 +588,7 @@
 .th
   background-color: #A75532
 .th-5
-  background-color: #FFEFF9 
+  background-color: #FEF3EE
 .jumbotron
   background-color: #fff
 .mg-top
@@ -590,6 +597,14 @@
   margin-top: -3rem
 .mg-top-2
   margin-top: -5rem
+.mg-top-3
+  margin-top: -2rem
+.mg-top-4
+  margin-top: -0.4rem
+.mg-top-5
+  margin-top: -1.5rem
+.mg-top-6
+  margin-top: -1.8rem
 .th-1
   background-color: #623E2A
   font-weight: 700
@@ -606,6 +621,12 @@
   overflow-y: hidden
 .banner-principal__img img
     width: 360px
+.lista-ul--color li > i:first-of-type 
+  color: #CA6432;
+.slyder__btn:hover 
+  background-color: #A75532
+a:active, a:focus, a:hover 
+  color: #FFF
 
 
 

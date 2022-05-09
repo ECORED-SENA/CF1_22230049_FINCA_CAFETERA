@@ -63,25 +63,25 @@
           .tarjeta.tarjeta-up
             img(src="@/assets/curso/1.jpg", alt= "")
             .tarjeta-up__content.bg-1
-              h4.text-center Autótrofos
+              h4.text-center.mg-top-4 Autótrofos
               p Dentro de los organismos que componen la biota existen a su vez varias clasificaciones donde es posible encontrar autótrofos o productores, que son aquellos capaces de sintetizar o de producir su propio alimento. 
         .col-lg-3.col-auto.mb-3.mb-lg-0
           .tarjeta.tarjeta-up
             img(src="@/assets/curso/2.jpg", alt= "")
             .tarjeta-up__content.bg-2
-              h4.text-center Heterótrofos
+              h4.text-center.mg-top-4 Heterótrofos
               p En segunda instancia se encuentran los heterótrofos, es decir, aquellos que deben ingerir sus alimentos ya sintetizados (o alimentarse de otros). 
         .col-lg-3.col-auto.mb-3.mb-lg-0
           .tarjeta.tarjeta-up
             img(src="@/assets/curso/3.jpg", alt= "")
             .tarjeta-up__content.bg-1
-              h4.text-center Saprófitos
+              h4.text-center.mg-top-4 Saprófitos
               p Finalmente, los descomponedores, también llamados saprófitos, que se alimentan de la materia orgánica en descomposición. 
         .col-lg-3.col-auto.mb-3.mb-lg-0
           .tarjeta.tarjeta-up
             img(src="@/assets/curso/4.jpg", alt= "")
             .tarjeta-up__content.bg-2
-              h4.text-center Biota en los cultivos de café
+              h4.text-center.mg-top-5 Biota en los cultivos de café
               p En el cultivo de café, es posible encontrar todos estos organismos, en mayor o menor escala, cada uno de ellos cumpliendo con su función biológica.    
 
     
@@ -94,7 +94,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 1
           span <b>Niveles ecológicos de la jerarquía organizacional</b>
-    .row.justify-content-center.align-items
+    .row.justify-content-center.align-items.mb-5
       .col-lg-8.mb-3
         img(src="@/assets/curso/images/tema1/piramide.svg", alt= "")
 
@@ -104,7 +104,7 @@
           h3.my-3 Fauna y Flora 
           p.mb-1 Para hacer un análisis de los elementos bióticos que hacen parte de los ecosistemas se han creado dos grandes grupos denominados fauna y flora. 
 
-          p.mb-3 El primero de ellos, la fauna, hace referencia a todas las especies animales que concurren en un lugar determinado y su composición y tamaño está definido, entre otros factores, por la existencia de relaciones entre especies, la conducta animal, la adaptabilidad de las especies, sus rasgos 
+          p.mb-3 El primero de ellos, la fauna, hace referencia a todas las especies animales que concurren en un lugar determinado y su composición y tamaño está definido, entre otros factores, por la existencia de relaciones entre especies, la conducta animal, la adaptabilidad de las especies, sus rasgos migratorios y las condiciones climáticas y de suelos de la región.
           .row.justify-content-center
             .col-lg-12
               ImagenInfografica.color-secundario.mb-5
@@ -174,29 +174,29 @@
           .tarjeta.tarjeta-up
             img(src="@/assets/curso/5.jpg", alt= "")
             .tarjeta-up__content.bg-1
-              h4.text-center Climáticos
+              h4.text-center.mg-top-4 Climáticos
               p Como la temperatura, vientos o la radiación solar.
         .col-lg-3.col-auto.mb-3.mb-lg-0
           .tarjeta.tarjeta-up
             img(src="@/assets/curso/6.jpg", alt= "")
             .tarjeta-up__content.bg-2
-              h4.text-center Edáficos
+              h4.text-center.mg-top-4 Edáficos
               p Los que constituyen las propiedades del suelo, tanto físicas (textura, estructura, porosidad, capacidad de retención, entre otras) como químicas (acidez, conductividad eléctrica, salinidad, etc.).
         .col-lg-3.col-auto.mb-3.mb-lg-0
           .tarjeta.tarjeta-up
             img(src="@/assets/curso/7.jpg", alt= "")
             .tarjeta-up__content.bg-1
-              h4.text-center Hídricos o hidrológicos
+              h4.text-center.mg-top-4 Hídricos o hidrológicos
               p  Referentes a la disponibilidad, flujo y calidad del agua.
         .col-lg-3.col-auto.mb-3.mb-lg-0
           .tarjeta.tarjeta-up
             img(src="@/assets/curso/8.jpg", alt= "")
             .tarjeta-up__content.bg-2
-              h4.text-center Geográficos
+              h4.text-center.mg-top-4 Geográficos
               p Entre los cuales están la altura sobre el nivel del mar, la pendiente y la orientación. 
     .row.align-items-center.justify-content-center
       .col-lg-10
-        .cajon.color-custom.p-4.mb-3
+        .cajon.color-custom-4.p-4.mb-3
           .row.align-items-center.justify-content-center 
             .col-lg-2
               img(src="@/assets/curso/images/tema1/ico_4.svg", style="width: 100px").m-auto
@@ -411,38 +411,38 @@
               .tarjeta.tarjeta-up
                 img(src="@/assets/curso/9.jpg", alt= "")
                 .tarjeta-up__content.bg-1
-                  h4.text-center Identificar los cuerpos de agua 
+                  h4.text-center.mg-top-6 Identificar los cuerpos de agua 
                   p Presentes en la unidad productiva, bien sean arroyos, ríos, manantiales, lagos o lagunas. 
 
             .col-lg-4.col-auto.mb-3
               .tarjeta.tarjeta-up
                 img(src="@/assets/curso/10.jpg", alt= "")
                 .tarjeta-up__content.bg-2
-                  h4.text-center Estimar cantidad de precipitación
-                  p 
+                  h4.text-center.mg-top-6 Estimar cantidad de precipitación
+                  p Que se da en un periodo determinado de tiempo con la ayuda de un pluviómetro.
             .col-lg-4.col-auto.mb-3
               .tarjeta.tarjeta-up
                 img(src="@/assets/curso/11.jpg", alt= "")
                 .tarjeta-up__content.bg-1
-                  h4.text-center Calcular caudal promedio
+                  h4.text-center.mg-top-5 Calcular caudal promedio
                   p  De los cuerpos de agua (en caso de ríos, arroyos, o manantiales) o bien el volumen aproximado (en el caso de lagos, lagunas y reservorios).
             .col-lg-4.col-auto.mb-3
               .tarjeta.tarjeta-up
                 img(src="@/assets/curso/12.jpg", alt= "")
                 .tarjeta-up__content.bg-2
-                  h4.text-center Afectaciones
+                  h4.text-center.mg-top-5 Afectaciones
                   p Identificar posibles afectaciones a los recursos hídricos. 
             .col-lg-4.col-auto.mb-3
               .tarjeta.tarjeta-up
                 img(src="@/assets/curso/13.jpg", alt= "")
                 .tarjeta-up__content.bg-1
-                  h4.text-center Tiempos propicios
+                  h4.text-center.mg-top-5 Tiempos propicios
                   p Identificar las épocas de abundancia del recurso y las épocas de escasez.
             .col-lg-4.col-auto.mb-3
               .tarjeta.tarjeta-up
                 img(src="@/assets/curso/14.jpg", alt= "")
                 .tarjeta-up__content.bg-2
-                  h4.text-center Análisis técnico
+                  h4.text-center.mg-top-5 Análisis técnico
                   p De ser posible, realizar un análisis de aguas en el laboratorio o bajo alguna técnica que de cuenta de su calidad, estado, etc. 
     .row.justify-content-center.align-items.fondo-5.mb-5.p-4
       .col-lg-2
@@ -474,7 +474,7 @@
             p El suelo es considerado como el componente fundamental del desarrollo agrícola y de la sostenibilidad ecológica; “es la base para la producción de alimentos, piensos, combustibles y fibras y para muchos servicios ecosistémicos esenciales”
               br
               br
-              b (FAO, 2015).
+              b.text-color (FAO, 2015).
     .row.justify-content-center.align-items.p-5
       .col-lg-6
         p <b>Sin embargo, pese a que este es un recurso finito y que es fundamental para la vida en la tierra, existen factores que amenazan su sostenibilidad, entre ellos:</b>
@@ -578,7 +578,7 @@
 
     .row.justify-content-center.align-items
       .col-lg-6
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_1_RecursoSuelo.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -594,7 +594,7 @@
           .col-lg-9
             p.mb-5 El tercero de los factores abióticos que se debe tener en cuenta para el estudio de los ecosistemas es el que corresponde a los factores climáticos, los cuales tienen una gran influencia en el desarrollo de plantas y animales, porque elementos como la radiación solar, la temperatura, la precipitación y la humedad relativa, son determinantes en los flujos de la energía que se dan en los entornos naturales.
             p.mb-5 El clima es el conjunto fluctuante de las condiciones atmosféricas, caracterizado por los estados y evoluciones del estado del tiempo, durante un periodo de tiempo y un lugar o región dados, y controlado por los denominados factores forzantes, factores determinantes y por la interacción entre los diferentes componentes del denominado sistema climático (atmósfera, hidrosfera, litosfera, criósfera, biosfera y antropósfera).  
-            p.text-end.fw-bold (IDEAM, 2022)
+            p.text-end.fw-bold.text-color (IDEAM, 2022)
           .col-lg-3.col-auto: img(src="@/assets/curso/images/tema1/img_24.png")
     p.mb-3.text-center.fw-bold Se debe visualizar el recurso que se muestra a continuación y profundizar en los aspectos más importantes que sobre el clima,se deben tener en cuenta, en el ámbito de la finca cafetera.
 
@@ -680,7 +680,6 @@ export default {
   },
 }
 </script>
-
 <style lang="sass">
 .tarjeta-up
   overflow: hidden

@@ -13,7 +13,7 @@
       .col-lg-10.mb-3
         img(src="@/assets/curso/images/tema2/img_1.svg", alt= "")
 
-    p.mb-3 A continuación, se presentan algunas generalidades de los bienes y servicios ambientales; se debe tomar nota de ello en una libreta personal de apuntes.
+    p.mb-3 <b>A continuación, se presentan algunas generalidades de los bienes y servicios ambientales; se debe tomar nota de ello en una libreta personal de apuntes.</b>
 
     .row.justify-content-center.align-items.p-3
       .col-lg-8
@@ -135,7 +135,7 @@
           .col-lg-7
             p.mb-5 Además de la función biológica que tienen los ecosistemas, es posible encontrar otros beneficios que se relacionan con una visión mucho más integral, la cual trasciende el plano netamente físico y considera factores espirituales, artísticos, intelectuales y cognitivos.
             p.mb-3 “Son los beneficios no materiales obtenidos de los ecosistemas, a través del enriquecimiento espiritual, belleza escénica, inspiración artística e intelectual, el desarrollo cognitivo, la reflexión, la recreación y las experiencias estéticas”  
-            p.text-end.fw-bold (MEA, 2005).
+            p.text-end.fw-bold.text-color (MEA, 2005).
           .col-lg-5.col-auto: img(src="@/assets/curso/15.png")
     p.mb-5.text-center.fw-bold  Entre estos elementos, es posible enunciar los siguientes:
     .row.mb-5.justify-content-center
@@ -143,25 +143,25 @@
           .tarjeta.tarjeta-up
             img(src="@/assets/curso/22.jpg", alt= "")
             .tarjeta-up__content.bg-1
-              h4.text-center Actividades de recreo
+              h4.text-center.mg-top-4 Actividades de recreo
               p Han cobrado especial importancia en años recientes, debido a la proliferación de los centros urbanos que, generalmente, carecen de espacios de esparcimiento y recreación. Estos espacios cobran especial importancia para actividades como caminar y practicar deportes. 
         .col-lg-3.col-auto.mb-3.mb-lg-0
           .tarjeta.tarjeta-up
             img(src="@/assets/curso/23.jpg", alt= "")
             .tarjeta-up__content.bg-2
-              h4.text-center Turismo
+              h4.text-center.mg-top-4 Turismo
               p Una de las grandes oportunidades para los países que tienen alta riqueza paisajística, ya que son millones de personas en el mundo entero las que dedican buena parte de su tiempo y sus recursos al disfrute de estos escenarios naturales. 
         .col-lg-3.col-auto.mb-3.mb-lg-0
           .tarjeta.tarjeta-up
             img(src="@/assets/curso/24.jpg", alt= "")
             .tarjeta-up__content.bg-1
-              h4.text-center Apreciación estética
+              h4.text-center.mg-top-4 Apreciación estética
               p Los ecosistemas en general son fuente de inspiración para las artes, el diseño, la cultura e incluso para la ciencia. De allí que muchos de estos lugares sean invaluables por su ubicación, su riqueza biológica, su conformación o su composición paisajística. 
         .col-lg-3.col-auto.mb-3.mb-lg-0
           .tarjeta.tarjeta-up
             img(src="@/assets/curso/25.jpg", alt= "")
             .tarjeta-up__content.bg-2
-              h4.text-center Experiencias espirituales
+              h4.text-center.mg-top-4 Experiencias espirituales
               p Las culturas suelen estar ligadas a lugares con inmenso valor inmaterial por su historia, su ubicación o el acervo cultural que representan. De allí se desprende la importancia de preservar estos lugares y rescatar las tradiciones y la historia que existe detrás de ellos, para fortalecer el sentido de pertenencia.
 
 </template>

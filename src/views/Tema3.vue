@@ -13,7 +13,7 @@
           .col-lg-5: img(src='@/assets/curso/images/tema3/img_1.png', alt='')
           .col-lg-7
             p.mb-4 Los conflictos ambientales se entienden como las desigualdades sociales, espaciales y temporales que se generan por el uso que hacen las personas, de los recursos y de los servicios ecosistémicos. Por su parte, un problema ambiental está relacionado con la deficiencia, afectación, exceso o pérdida de un recurso natural o de un servicio ambiental específico (Castro, 2018).
-            p.mb-3 Los conflictos ambientales se entienden como las desigualdades sociales, espaciales y temporales que se generan por el uso que hacen las personas, de los recursos y de los servicios ecosistémicos. Por su parte, un problema ambiental está relacionado con la deficiencia, afectación, exceso o pérdida de un recurso natural o de un servicio ambiental específico (Castro, 2018).
+            p.mb-3 Para lograr identificar la oferta de servicios ambientales de la finca cafetera, también es necesario hacer un inventario que recoja tanto los conflictos como los problemas ambientales presentes en el territorio para, de esta manera, diseñar alternativas que permitan mitigar, corregir o prevenir situaciones que puedan afectar el desarrollo de la actividad productiva y su sostenibilidad. 
             p.text-end.fw-bold.text-color Etter, 2002
 
     p.mb-3.text-center <b>Para diferenciar los conflictos de los problemas ambientales es importante tener en cuenta, ver tabla 1:</b>
@@ -37,25 +37,25 @@
                 td.th-5 E Se presentan de manera independiente de la escasez, deterioro o privación de los recursos naturales.  
                 
               tr
-                td.th-5 E Surgen como consecuencia de un problema ambiental. 
-                td.th-5 E Surgen por situaciones relacionadas con afectaciones reales o potenciales de las condiciones del entorno. 
+                td.th-5 Surgen como consecuencia de un problema ambiental. 
+                td.th-5 Surgen por situaciones relacionadas con afectaciones reales o potenciales de las condiciones del entorno. 
                 
               tr
-                td.th-5 E Pueden considerarse construcciones sociales y culturales susceptibles de cambio, según cómo se aborden y manejen.
-                td.th-5 E Afectan la calidad del ambiente o de alguno de sus componentes. 
+                td.th-5 Pueden considerarse construcciones sociales y culturales susceptibles de cambio, según cómo se aborden y manejen.
+                td.th-5 Afectan la calidad del ambiente o de alguno de sus componentes. 
                 
               tr
-                td.th-5 E Es posible que vinculen problemas de datos, de intereses o de creencias.
-                td.th-5 E Vinculan situaciones de carencia, deficiencia o exceso de un factor indeseado. 
+                td.th-5 Es posible que vinculen problemas de datos, de intereses o de creencias.
+                td.th-5 Vinculan situaciones de carencia, deficiencia o exceso de un factor indeseado. 
               tr
-                td.th-5 E Surgen en situaciones de desigualdad social y débil institucionalidad.
-                td.th-5 E Su aparición no está condicionada por desigualdad social o débil institucionalidad. 
+                td.th-5 Surgen en situaciones de desigualdad social y débil institucionalidad.
+                td.th-5 Su aparición no está condicionada por desigualdad social o débil institucionalidad. 
 
       p.mt-5.text-center <b> Estas son algunas generalidades de las problemáticas ambientales; se debe llevar registro de esto en una libreta personal de apuntes. </b>
-    .fondo-11.p-5
+    .row.justify-content-center.align-items-center.fondo-11.p-5
       SlyderB(:datos="datosSlyder").mt-5
-
-    Separador 
+    
+    Separador
 
     #t_3_1.titulo-segundo
       h2 3.1 Origen de los conflictos ambientales
@@ -97,7 +97,7 @@
     Separador 
 
     #t_3_2.titulo-segundo.p-4
-      .h4 3.2 Acciones de mitigación de conflictos ambientales
+      .h4 3.2 Acciones de mitigación de conflictos ambientales 
     
     p.mb-3 La resolución de los conflictos ambientales abarca una amplia gama de alternativas, las cuales se pueden aplicar dependiendo de la naturaleza del conflicto, de las motivaciones de los actores involucrados y de las circunstancias que rodeen la situación, entre otros factores. 
 
@@ -126,7 +126,7 @@
           .tarjeta_tab.back-tab.p-4(titulo="4. Mediación")
               h4 4. Mediación
               p.mb-3 Una tercera parte neutral e imparcial asiste a las partes para que negocien. 
-          .tarjeta_tab.back-tab.p-4(titulo="5. Horizontes del suelo")
+          .tarjeta_tab.back-tab.p-4(titulo="5. Resolución")
               h4 5. Resolución
               p.mb-3 Atiende los intereses y necesidades de las partes pero centrada en una disputa concreta
 

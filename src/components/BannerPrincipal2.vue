@@ -55,7 +55,8 @@ export default {
 
   .tarjeta
     background-color: $color-banner-fondo
-    background-size: cover
+    background-size: 92%
+    background-repeat: no-repeat
     background-position: center
 
   &__info
@@ -123,7 +124,7 @@ export default {
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     width: 133px
-    bottom: 50px
+    bottom: 80px
     box-shadow:
     left: 65%
   &_3
