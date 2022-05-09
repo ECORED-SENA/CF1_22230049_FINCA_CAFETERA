@@ -401,12 +401,12 @@
                 td.text-center.th-4   Bosque natural
 
                 td.th-4  
-                  img(src="@/assets/curso/images/tema4/ico_tab_8.svg", style="width: 120px").m-auto        
+                  img(src="@/assets/curso/images/tema4/ico_tab_8.svg", style="width: 120px").m-auto
 
               tr
                 td.text-center.th-2    Laguna
                 td.th-2   
-                  img(src="@/assets/curso/images/tema4/ico_tab_9.svg", style="width: 120px").m-auto  
+                  img(src="@/assets/curso/images/tema4/ico_tab_9.svg", style="width: 120px").m-auto
 
     .row.align-items-center.justify-content-center 
       .col-lg-10
