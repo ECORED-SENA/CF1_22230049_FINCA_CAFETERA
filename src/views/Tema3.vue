@@ -34,7 +34,7 @@
                 td.text-center.text-white.th-3 #[strong Problema]            
               tr
                 td.th-5 Enfrentamiento por hechos vinculados a la escasez, el deterioro o la privación de los recursos naturales. 
-                td.th-5 E Se presentan de manera independiente de la escasez, deterioro o privación de los recursos naturales.  
+                td.th-5 Se presentan de manera independiente de la escasez, deterioro o privación de los recursos naturales.  
                 
               tr
                 td.th-5 Surgen como consecuencia de un problema ambiental. 
@@ -96,14 +96,14 @@
 
     Separador 
 
-    #t_3_2.titulo-segundo.p-4
-      .h4 3.2 Acciones de mitigación de conflictos ambientales 
+    #t_3_2.titulo-segundo
+      h2 3.2 Acciones de mitigación de conflictos ambientales 
     
     p.mb-3 La resolución de los conflictos ambientales abarca una amplia gama de alternativas, las cuales se pueden aplicar dependiendo de la naturaleza del conflicto, de las motivaciones de los actores involucrados y de las circunstancias que rodeen la situación, entre otros factores. 
 
-    p.mb-3.text-center <b>Sobre las acciones de mitigación de conflictos en el orden ambiental, se puede conocer las generalidades y aspectos clave que, a continuación, se presentan:</b>
+    p.mb-2.text-center <b>Sobre las acciones de mitigación de conflictos en el orden ambiental, se puede conocer las generalidades y aspectos clave que, a continuación, se presentan:</b>
   .container.bg-white.p-4.p-md-5.fondo-video-1
-    figure.p-5
+    figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 

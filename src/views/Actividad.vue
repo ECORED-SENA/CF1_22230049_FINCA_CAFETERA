@@ -7,7 +7,7 @@
       .col-8.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.px-md-3
           figure
-            img(src="@/assets/curso/images/tema4/sopa.png", alt="Texto que describa la imagen")
+            img(src="@/assets/template/ac.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Diagnosticando componentes del sistema productivo
@@ -17,7 +17,7 @@
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Buscar las palabras ocultas en la sopa de letras.
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/index.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/actividad1/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
 </template>

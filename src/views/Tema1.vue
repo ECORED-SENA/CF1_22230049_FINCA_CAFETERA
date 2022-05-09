@@ -13,7 +13,7 @@
           .col-lg-5: img(src="@/assets/curso/images/tema1/img_1.png")
           .col-lg-7
             p.mb-4 El desarrollo de prácticas agrícolas sostenibles y basadas en el respeto y protección de la biodiversidad requiere, en primera medida, de la comprensión de las complejidades que se dan al interior de los ecosistemas naturales y de la disciplina que se encarga de estudiar las interacciones que surgen entre los diferentes organismos y su entorno.
-              br 
+              br
               br
               | La ecología se puede definir como el “estudio de los sistemas de la Tierra conformados por los organismos vivientes y el entorno inanimado con el cual interactúan directa o indirectamente”. Si bien esta definición recoge en buena medida lo que significa la ecología, un concepto más amplio podría ser aquél que hace referencia a esta como “el campo de conocimiento de la composición, estructura y funcionamiento de los ecosistemas”
             
@@ -63,25 +63,25 @@
           .tarjeta.tarjeta-up
             img(src="@/assets/curso/1.jpg", alt= "")
             .tarjeta-up__content.bg-1
-              h4.text-center.mg-top-4 Autótrofos
+              h4.text-center.mt-4 Autótrofos
               p Dentro de los organismos que componen la biota existen a su vez varias clasificaciones donde es posible encontrar autótrofos o productores, que son aquellos capaces de sintetizar o de producir su propio alimento. 
         .col-lg-3.col-auto.mb-3.mb-lg-0
           .tarjeta.tarjeta-up
             img(src="@/assets/curso/2.jpg", alt= "")
             .tarjeta-up__content.bg-2
-              h4.text-center.mg-top-4 Heterótrofos
+              h4.text-center.mt-4 Heterótrofos
               p En segunda instancia se encuentran los heterótrofos, es decir, aquellos que deben ingerir sus alimentos ya sintetizados (o alimentarse de otros). 
         .col-lg-3.col-auto.mb-3.mb-lg-0
           .tarjeta.tarjeta-up
             img(src="@/assets/curso/3.jpg", alt= "")
             .tarjeta-up__content.bg-1
-              h4.text-center.mg-top-4 Saprófitos
+              h4.text-center.mt-4 Saprófitos
               p Finalmente, los descomponedores, también llamados saprófitos, que se alimentan de la materia orgánica en descomposición. 
         .col-lg-3.col-auto.mb-3.mb-lg-0
           .tarjeta.tarjeta-up
             img(src="@/assets/curso/4.jpg", alt= "")
             .tarjeta-up__content.bg-2
-              h4.text-center.mg-top-5 Biota en los cultivos de café
+              h4.text-center.mt-4 Biota en los cultivos de café
               p En el cultivo de café, es posible encontrar todos estos organismos, en mayor o menor escala, cada uno de ellos cumpliendo con su función biológica.    
 
     
@@ -196,7 +196,7 @@
               p Entre los cuales están la altura sobre el nivel del mar, la pendiente y la orientación. 
     .row.align-items-center.justify-content-center
       .col-lg-10
-        .cajon.color-custom-4.p-4.mb-3
+        .cajon.color-primario.bg--1.p-4.mb-3
           .row.align-items-center.justify-content-center 
             .col-lg-2
               img(src="@/assets/curso/images/tema1/ico_4.svg", style="width: 100px").m-auto
@@ -463,7 +463,7 @@
     .titulo-cafe.mb-5
       h3.mb-0.text-center.color-secundario.font-weight-bold.me-4
         |Recursos suelo
-      .titulo-cafe_icon: img(src='@/assets/curso/17.svg' alt='Icono de la categoria')      
+      .titulo-cafe_icon: img(src='@/assets/curso/17.svg' alt='Icono de la categoria')
     .franja_content.mb-5
       .franja(style='bottom: 13%; height: 150px')
       .content
@@ -578,7 +578,7 @@
 
     .row.justify-content-center.align-items
       .col-lg-6
-        a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_1_RecursoSuelo.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/documento1.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -681,6 +681,8 @@ export default {
 }
 </script>
 <style lang="sass">
+.bg--1
+  background-color: #fbdca6 !important
 .tarjeta-up
   overflow: hidden
   position: relative

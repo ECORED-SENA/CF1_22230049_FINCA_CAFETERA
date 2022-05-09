@@ -3,7 +3,7 @@
   .container.tarjeta.position-relative(
     :style="{'background-image': globalData.fondoBannerPrincipal ? `url(${globalData.fondoBannerPrincipal})` : 'none'}"
   )
-    .row.banner-principal__row.position-relative.justify-content-center.align-items-center.g-5
+    .row.banner-principal__row.position-relative.justify-content-center.align-items-center
       .col-lg-7.col-xxl-6.py-4.py-sm-5.banner-principal__info.ps-5
         .banner-principal__componente
           h1.mb-0(v-html="globalData.componenteFormativo")
@@ -15,8 +15,8 @@
             span.me-1 Ver más
             i.fas.fa-angle-right
 
-      .d-none.d-lg-block.col-lg-6.px-0.banner-principal__img
-        img(:src="globalData.imagenBannerPrincipal" style="width: 606px")
+      .d-none.d-lg-block.col-lg-6.banner-principal__img.p-5
+        img(:src="globalData.imagenBannerPrincipal" style="width: 481px")
     .imagen_flotante_1: img(src="@/assets/curso/float1.png")
     .imagen_flotante_2: img(src="@/assets/curso/float2.png")
     .imagen_flotante_3: img(src="@/assets/curso/float3.png")
@@ -196,4 +196,6 @@ export default {
   .fondo-contenido2
     background-repeat: no-repeat
     background-size: cover
+.banner-principal
+  z-index: 1
 </style>

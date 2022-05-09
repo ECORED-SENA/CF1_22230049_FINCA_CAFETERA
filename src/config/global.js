@@ -5,7 +5,7 @@ export default {
     descripcionCurso:
       'A través del estudio de este componente, el aprendiz estará más y mejor capacitado en las competencias e implicaciones del proceso productivo: identificación de ecosistemas, normativa ambiental, desarrollo de prácticas para reducción de impactos de la caficultura sobre el entorno natural, herramientas topográficas, entre otros. Todo ello como soporte de su responsabilidad con la sostenibilidad, en términos ambientales.',
     fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.png'),
-    imagenBannerPrincipal: require('@/assets/curso/banner.png'),
+    imagenBannerPrincipal: require('@/assets/curso/banner.svg'),
     fondoBannerInterno: require('@/assets/curso/images/header/interno.svg'),
   },
   menuPrincipal: {
@@ -87,6 +87,12 @@ export default {
             numero: '3.1',
             titulo: 'Origen de los conflictos ambientales',
             hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Acciones de mitigación de conflictos ambientales',
+            hash: 't_3_2',
           },
         ],
       },
@@ -260,50 +266,47 @@ export default {
   complementario: [
     {
       texto:
-        'Bienes y servicios ambientales - Decreto 1729 de 2002. [IDEAM]. Por el cual se reglamenta la Parte XIII, Título 2, Capítulo III del Decreto-ley 2811 de 1974 sobre cuencas hidrográficas, parcialmente el numeral 12 del Artículo 5° de la Ley 99 de 1993 y se dictan otras disposiciones. 6 de agosto de 2002. DO 44893.',
+        'Decreto 1729 de 2002. [IDEAM]. Por el cual se reglamenta la Parte XIII, Título 2, Capítulo III del Decreto-ley 2811 de 1974 sobre cuencas hidrográficas, parcialmente el numeral 12 del Artículo 5° de la Ley 99 de 1993 y se dictan otras disposiciones. 6 de agosto de 2002. DO 44893.',
       tipo: 'PDF',
       link:
         'http://www.ideam.gov.co/documents/24024/36843/Decreto_1729_de_2002.pdf/59ad8528-1179-4fd7-9075-aed67fce2b40#:~:text=Enti%C3%A9ndese%20por%20cuenca%20u%20hoya%20hidrogr%C3%A1fica%20el%20%C3%A1rea%20de%20aguas,de%20aguas%2C%20en%20un%20pantano',
     },
     {
-      texto:
-        'Bienes y servicios de abastecimiento - TERRAZOCULTOR José Manuel. (2018). Pluviómetro casero',
+      texto: 'TERRAZOCULTOR José Manuel. (2018). Pluviómetro casero',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=EyUjYCFbCjA',
     },
     {
       texto:
-        'Bienes y servicios de abastecimiento - Ing. Jesús Márquez. (2020). Aprende a calcular el caudal (más fácil y en casa)',
+        'Ing. Jesús Márquez. (2020). Aprende a calcular el caudal (más fácil y en casa)',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=5uHyjcMBAvY',
     },
     {
-      texto:
-        'Bienes y servicios de regulación - Ingenia UdeA. (2018). Aforo de caudales',
+      texto: 'Ingenia UdeA. (2018). Aforo de caudales',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=IDapeEITOSA',
     },
     {
-      texto:
-        'Recurso suelo - Wiracocha Foundation. (2015). Hablemos de suelos ',
+      texto: 'Wiracocha Foundation. (2015). Hablemos de suelos ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=mXoR0-c55II',
     },
     {
       texto:
-        'Recurso suelo - Martinez, M. (2020). Nutrición Vegetal: Generalidades y Funciones de los Nutrientes ',
+        'Martinez, M. (2020). Nutrición Vegetal: Generalidades y Funciones de los Nutrientes ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=PO8B1ZnT8Rc',
     },
     {
       texto:
-        'Ecología - Geo Api. (2014). Tutorial configuración inicial del GPS - GeoApiC7',
+        'Geo Api. (2014). Tutorial configuración inicial del GPS - GeoApiC7',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=2h6rOS8NvkQ',
     },
     {
       texto:
-        'Herramientas topográficas - Geo Api. (2014). Tutorial configuración inicial del GPS - GeoApiC7',
+        'Geo Api. (2014). Tutorial configuración inicial del GPS - GeoApiC7',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=GXuiJ2lUDPc',
     },
