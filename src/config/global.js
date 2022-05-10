@@ -300,7 +300,7 @@ export default {
     },
     {
       texto:
-        'Geo Api. (2014). Tutorial configuración inicial del GPS - GeoApiC7',
+        'Instituto Humboldt. (2013). Servicios ecosistémicos, nuestra conexión vital con la biodiversidad ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=2h6rOS8NvkQ',
     },
@@ -388,6 +388,18 @@ export default {
         nombre: 'Zuleidy Maria Ruiz Torres',
         cargo: 'Producción audiovisual',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Laura Ximena Hurtado Villalba ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Camilo Andrés Bolaño Rey',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Yenny Patricia Ulloa Villamizar',

@@ -105,7 +105,7 @@
   .container.bg-white.p-4.p-md-5.fondo-video-1
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/SQ6S1fiwJ1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mb-3.text-center <b> En cuanto a los mecanismos alternativos para la resolución de conflictos ambientales, se presenta algunas especificaciones que se debe tener presentes: </b>
   .container.bg-white.p-4.p-md-1.container-bottom 
