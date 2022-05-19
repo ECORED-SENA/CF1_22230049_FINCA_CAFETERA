@@ -24,7 +24,6 @@
         LineaTiempoD.color-secundario.especial
           .row.color-custom(numero="1" titulo="Es una disciplina aplicada").align-items-center.p-4
             .col-lg-7
-              h3 Es una disciplina aplicada
               p Se ha perfeccionado con el tiempo, a través de la incorporación de herramientas cada vez más sofisticadas por medio de las cuales se ha logrado una reconstrucción casi exacta del relieve y sus diferentes accidentes. Ha ajustado sus técnicas y ha logrado representar la realidad en tres dimensiones, con base en aerofotografías e imágenes satelitales; esta representación de la superficie terrestre sobre un plano sintetiza el quehacer de la cartografía.
             .col-lg-5.mb-4.mb-lg-0
               figure
@@ -33,7 +32,6 @@
         
           .row.color-custom(numero="2" titulo="Tiene múltiples enfoques").m-auto
             .col-lg-7
-              h3 Tiene múltiples enfoques
               p Si bien en sus comienzos la cartografía tenía una utilidad netamente geográfica, con el tiempo ha trascendido a múltiples escenarios en los cuales resulta, igualmente, de mucha utilidad. Hoy día es posible encontrar mapas que presentan la dispersión de plagas y enfermedades, los usos del suelo, la incidencia de fenómenos climáticos e incluso, las áreas donde se presentan conflictos ambientales.
             .col-lg-5.mb-4.mb-lg-0
               figure
@@ -41,7 +39,6 @@
           
           .row.color-custom(numero="3" titulo="Ofrece grandes aportes a la humanidad").m-auto
               .col-lg-7
-                h3 Ofrece grandes aportes a la humanidad
                 p En relación con las ciencias humanas, es posible encontrar representaciones cartográficas en donde se ponen de manifiesto fenómenos sociales como los niveles de pobreza, inseguridad, desempleo y dificultades para el acceso al saneamiento básico, por lo que se resulta una herramienta bastante poderosa para tener un panorama general de la realidad y de sus particularidades.
               .col-lg-5.mb-4.mb-lg-0
                 figure
@@ -49,8 +46,6 @@
           
           .row.color-custom(numero="4" titulo="Ofrece grandes aportes para una unidad productiva").align-items-center.p-4
             .col-lg-7
-              h3 Ofrece grandes aportes para una unidad productiva
-              p En el ámbito predial, es posible desarrollar ejercicios para la construcción de una base cartográfica. Incluso sin el uso de tecnologías de avanzada es posible elaborar mapas que den cuenta de la disposición de los elementos que hacen parte de la unidad productiva, con lo cual se tiene una visión general del predio y se facilitan los procesos de planificación.
 
             .col-lg-5.mb-4.mb-lg-0
               figure

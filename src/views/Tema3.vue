@@ -71,7 +71,7 @@
           .tarjeta_tab.back-tab.p-4(titulo="1. Formación")
             h4 1. Formación
             p.mb-3  Se reconoce la existencia del problema ambiental pero no se toman acciones al respecto. 
-          .tarjeta_tab.back-tab.p-4(titulo="2. Resignificación de los procesos agrícolas")
+          .tarjeta_tab.back-tab.p-4(titulo="2. Surgimiento")
             h4 2. Surgimiento
             p.mb-3 Se definen los intereses y las posiciones de los actores involucrados. 
           .tarjeta_tab.back-tab.p-4(titulo="3. Escalamiento")

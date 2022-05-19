@@ -127,7 +127,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -168,12 +168,6 @@ export default {
       referencia:
         'Castro L. et al. (2018). Preguntas y respuestas sobre conflictos ambientales. Aprendizajes del río Orotoy.',
       link: 'http://repository.humboldt.org.co/handle/20.500.11761/34269',
-    },
-    {
-      referencia:
-        'Etter A. (2002). INTRODUCCIÓN A LA ECOLOGÍA DEL PAISAJE: Un Marco de Integración para los Levantamientos Ecológicos.',
-      link:
-        'https://www.researchgate.net/publication/266391069_INTRODUCCION_A_LA_ECOLOGIA_DEL_PAISAJE_Un_Marco_de_Integracion_para_los_Levantamientos_Ecologicos/citation/download ',
     },
     {
       referencia:

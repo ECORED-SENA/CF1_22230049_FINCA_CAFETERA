@@ -184,7 +184,7 @@ export default {
       {
         titulo: 'Productos maderables',
         texto:
-          'La demanda de madera en Colombia se centra en industrias como la construcción, la fabricación de muebles y el embalaje de productos. En en el país se comercializan más de 470 especies maderables, aunque esta práctica está sustentada en la extracción selectiva de especies nativas, tales como cativo, caoba, cedro, sajo, cuángare, mangle y roble. Estas especies son empleadas para industrias como la de la pulpa de papel, tríplex, tableros aglomerados, taninos, leña y carbón.',
+          'La demanda de madera en Colombia se centra en industrias como la construcción, la fabricación de muebles y el embalaje de productos. En el país se comercializan más de 470 especies maderables, aunque esta práctica está sustentada en la extracción selectiva de especies nativas, tales como cativo, caoba, cedro, sajo, cuángare, mangle y roble. Estas especies son empleadas para industrias como la de la pulpa de papel, tríplex, tableros aglomerados, taninos, leña y carbón.',
         imagen: require('@/assets/curso/images/tema2/img_4.png'),
       },
       {

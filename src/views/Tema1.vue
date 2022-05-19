@@ -371,26 +371,26 @@
 
     .row.justify-content-center.align-items.fondo-16
       .col-lg-8.mb-3
-        ImagenInfografica.color-secundario.mb-5
+        ImagenInfografica.color-acento-contenido.mb-5
           template(v-slot:imagen)
             figure
               img(src="@/assets/curso/images/tema1/img_20.png", alt= "")
-          .tarjeta.tarjeta.info-2.p-3(x="45%" y="14%" numero="1")
+          .tarjeta.tarjeta.info-2.p-3(x="44.6%" y="14.4%" numero="1")
             h3 1. Área de captación
             p Se conforma por las partes más altas de la cuenca en donde la cobertura vegetal tiene una función fundamental en la regulación hídrica al encargarse de capturar el agua que se precipita al suelo en forma de niebla.  
-          .tarjeta.tarjeta.info-2.p-3(x="37%" y="30%" numero="2")
+          .tarjeta.tarjeta.info-2.p-3(x="37.4%" y="30.5%" numero="2")
             h3 2. Área de vertientes
             p Se ubica en las partes medias de las montañas que rodean la microcuenca donde afloran las aguas subterráneas filtradas a través del suelo a través de nacimientos, manantiales, arroyos y quebradas de regular caudal. 
-          .tarjeta.tarjeta.info-2.p-3(x="52%" y="40%" numero="3")
+          .tarjeta.tarjeta.info-2.p-3(x="51.8%" y="40%" numero="3")
             h3.text-decoration-color 3. Área de confluencia
             p Está conformada por las partes bajas de las montañas, zonas de piedemonte o vegas de ríos. Allí se unen todas las quebradas, arroyos y riachuelos los cuales finalmente tributan al río principal, el cual puede desembocar en otro afluente, en un lago o dirigirse directamente al mar.  
-          .tarjeta.tarjeta.info-2.p-3(x="39%" y="49%" numero="4")
+          .tarjeta.tarjeta.info-2.p-3(x="38.5%" y="49.5%" numero="4")
             h3 4. Importante
-            p.mb-0 En vista de que en la microcuenca se dan los procesos primarios de captación de aguas, es indispensable, en lo posible, mantener y conservar sus coberturas vegetales nativas, ya que cualquier desequilibrio en la conformación de estos frágiles sistemas naturales puede tener consecuencias bastante negativas en la
-          .tarjeta.tarjeta.info-2.p-3(x="51%" y="88%" numero="5")
-            h3 Fauna presente
+            p.mb-0 En vista de que en la microcuenca se dan los procesos primarios de captación de aguas, es indispensable, en lo posible, mantener y conservar sus coberturas vegetales nativas, ya que cualquier desequilibrio en la conformación de estos frágiles sistemas naturales puede tener consecuencias bastante negativas en la región.
+          .tarjeta.tarjeta.info-2.p-3(x="52.5%" y="87.2%" numero="5")
+            h3 5. Fauna presente
             p.mb-0 En estos ecosistemas es posible encontrar múltiples especies animales y de microorganismos que desempeñan funciones biológicas de suma importancia (descomposición de materia orgánica, dispersión de semillas, mantenimiento del equilibrio biológico); por tanto es un deber del productor cafetero velar por su protección y conservación, aun más porque producción cafetera, cada vez, se realiza a mayores altitudes. 
-          .tarjeta.tarjeta.info-2.p-3(x="69%" y="58%" numero="6")
+          .tarjeta.tarjeta.info-2.p-3(x="69.5%" y="59%" numero="6")
             h3.text 6. La finca cafetera como parte de un todo
             p.mb-0 Reflexionar sobre las dinámicas al interior del ciclo hidrológico y su interacción con los elementos que intervienen en el movimiento del agua, a través de los ecosistemas, es fundamental para el desarrollo de prácticas que permitan la conservación y la protección de este recurso. Una visión general de la unidad productiva, permite entenderla como parte de un todo y no como un elemento aislado del paisaje natural. 
 
@@ -559,24 +559,24 @@
 
     .row.justify-content-center.align-items.fondo-7.mb-5
       .col-lg-12.mb-3
-        ImagenInfografica.color-secundario.mb-5
+        ImagenInfografica.color-acento-botones.letras-blancas.mb-5
           template(v-slot:imagen)
             figure
               img(src="@/assets/curso/images/tema1/img_23.png", alt= "")
-          .tarjeta.tarjeta.info-4.p-3(x="37.5%" y="34.7%" numero="")
+          .tarjeta.info-4.p-3(x="37.4%" y="34.5%" numero="O")
             h3 O. Este horizonte se compone principalmente por materia orgánica. 
-          .tarjeta.tarjeta.info-4.p-3(x="37.5%" y="41%" numero="")
+          .tarjeta.info-4.p-3(x="37.3%" y="41.4%" numero="A")
             h3 A. Residuos orgánicos en estado de descomposición. Alto contenido de materia orgánica. 
-          .tarjeta.tarjeta.info-4.p-3(x="37.5%" y="51%" numero="")
+          .tarjeta.info-4.p-3(x="37.3%" y="50.7%" numero="E")
             h3 E. Posee alta concentración de arena y limo sin rasgos de roca madre.
-          .tarjeta.tarjeta.info-4.p-3(x="37.5%" y="59.8%" numero="")
+          .tarjeta.info-4.p-3(x="37.3%" y="59.7%" numero="B")
             h3 B. Horizonte de transición compuesto por materiales precipitados del horizonte A. 
-          .tarjeta.tarjeta.info-4.p-3(x="37.5%" y="72.5%" numero="")
+          .tarjeta.info-4.p-3(x="37.35%" y="72.2%" numero="C")
             h3 C. Compuesto por materiales resultantes de la descomposición de la roca madre o el material parental. 
-          .tarjeta.tarjeta.info-4.p-3(x="37.5%" y="86.5%" numero="")
+          .tarjeta.info-4.p-3(x="37.35%" y="86.3%" numero="D")
             h3 D. Se compone por rocas de gran tamaño que por procesos de meteorización dan origen a la fracción mineral de los horizontes más superficiales.
 
-    .row.justify-content-center.align-items
+    .row.justify-content-center
       .col-lg-6
         a.anexo.mb-4(:href="obtenerLink('/downloads/documento1.pdf')" target="_blank")
           .anexo__icono
@@ -596,7 +596,7 @@
             p.mb-5 El clima es el conjunto fluctuante de las condiciones atmosféricas, caracterizado por los estados y evoluciones del estado del tiempo, durante un periodo de tiempo y un lugar o región dados, y controlado por los denominados factores forzantes, factores determinantes y por la interacción entre los diferentes componentes del denominado sistema climático (atmósfera, hidrosfera, litosfera, criósfera, biosfera y antropósfera).  
             p.text-end.fw-bold.text-color (IDEAM, 2022)
           .col-lg-3.col-auto: img(src="@/assets/curso/images/tema1/img_24.png")
-    p.mb-3.text-center.fw-bold Se debe visualizar el recurso que se muestra a continuación y profundizar en los aspectos más importantes que sobre el clima,se deben tener en cuenta, en el ámbito de la finca cafetera.
+    p.mb-3.text-center.fw-bold Se debe visualizar el recurso que se muestra a continuación y profundizar en los aspectos más importantes que sobre el clima, se deben tener en cuenta, en el ámbito de la finca cafetera.
 
     figure.p-5
       .video
@@ -706,4 +706,8 @@ export default {
   &:hover
     .tarjeta-up__content
       bottom: 0%
+.letras-blancas
+  .img-infografica__item__numero
+    color: $white !important
+    font
 </style>
