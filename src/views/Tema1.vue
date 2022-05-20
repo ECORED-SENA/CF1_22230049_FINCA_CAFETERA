@@ -553,7 +553,7 @@
             
             .row 
               .col-lg-8.mb-4
-                h4 Automatizar las pruebas de <i>software</i>
+                h4 Horizontes del suelo
                 p.mb-3 Este material mineral descompuesto al integrarse con la materia orgánica se dispone en capas, por lo que es común encontrar lo que se conoce como horizontes del suelo, los cuales varían de una región a otra. 
     p.text-center <b>Sin embargo, es posible identificar cuatro horizontes principales:</b>
 
